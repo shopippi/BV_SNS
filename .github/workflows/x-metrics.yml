@@ -10,14 +10,6 @@ jobs:
   fetch:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Show repository tree (debug)
-        run: |
-          echo "--- リポジトリの中身 ---"
-          find . -path ./.git -prune -o -print | sed 's|^\./||'
-          echo "------------------------"
-
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -30,11 +22,62 @@ jobs:
           X_CONSUMER_SECRET: ${{ secrets.X_CONSUMER_SECRET }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
-          # 置き場所がどこでも動くように、リポジトリ内から探して実行する
-          SCRIPT=$(find . -path ./.git -prune -o -name 'fetch_x_metrics*.py' -print | head -1)
-          if [ -z "$SCRIPT" ]; then
-            echo "::error::fetch_x_metrics.py がリポジトリ内に見つかりません。上の tree を確認してください。"
-            exit 1
-          fi
-          echo "実行するファイル: $SCRIPT"
-          python "$SCRIPT" --discord
+          python - <<'PY'
+          import os, sys, base64, datetime as dt, requests
+
+          USERNAME = "BANDVAPE_"
+          key = os.environ["X_CONSUMER_KEY"].strip().strip('"').strip("'")
+          sec = os.environ["X_CONSUMER_SECRET"].strip().strip('"').strip("'")
+          hook = os.environ["DISCORD_WEBHOOK_URL"].strip().strip('"').strip("'")
+
+          cred = base64.b64encode(f"{key}:{sec}".encode()).decode()
+          r = requests.post(
+              "https://api.x.com/oauth2/token",
+              headers={"Authorization": f"Basic {cred}",
+                       "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"},
+              data={"grant_type": "client_credentials"}, timeout=30)
+          if r.status_code != 200:
+              sys.exit(f"Bearer取得に失敗 {r.status_code}: {r.text[:300]}")
+          bearer = r.json()["access_token"]
+          H = {"Authorization": f"Bearer {bearer}"}
+
+          def get(path, params):
+              rr = requests.get("https://api.x.com/2" + path, headers=H, params=params, timeout=30)
+              if rr.status_code != 200:
+                  sys.exit(f"APIエラー {rr.status_code} on {path}: {rr.text[:300]}")
+              return rr.json()
+
+          u = get(f"/users/by/username/{USERNAME}", {"user.fields": "public_metrics"})["data"]
+          pmu = u["public_metrics"]
+
+          tl = get(f"/users/{u['id']}/tweets",
+                   {"max_results": 20, "exclude": "retweets",
+                    "tweet.fields": "created_at,public_metrics,attachments"})
+
+          now = dt.datetime.now(dt.timezone(dt.timedelta(hours=9))).isoformat(timespec="seconds")
+          rows = ["#XMETRICS v1",
+                  f"fetched_at\t{now}",
+                  f"followers\t{pmu['followers_count']}",
+                  "id\tcreated_at\timpressions\treposts\tlikes\treplies\tquotes\tbookmarks\timages"]
+          for t in tl.get("data", [])[:10]:
+              m = t.get("public_metrics", {})
+              imgs = len(t.get("attachments", {}).get("media_keys", []))
+              rows.append("\t".join(str(x) for x in [
+                  t["id"], t.get("created_at"), m.get("impression_count"),
+                  m.get("retweet_count"), m.get("like_count"), m.get("reply_count"),
+                  m.get("quote_count"), m.get("bookmark_count"), imgs]))
+
+          head = f"## X 実測 ／ {now[:16].replace('T', ' ')}\nフォロワー **{pmu['followers_count']}**"
+          body = head + "\n```\n" + "\n".join(rows) + "\n```"
+          while len(body) > 1900 and len(rows) > 5:
+              rows.pop()
+              body = head + "\n```\n" + "\n".join(rows) + "\n```"
+
+          print(body)
+          resp = requests.post(hook, json={
+              "username": "Marketer",
+              "avatar_url": "https://abs.twimg.com/emoji/v2/72x72/1f98a.png",
+              "content": body}, timeout=30)
+          print("Discord:", resp.status_code, resp.text[:200])
+          resp.raise_for_status()
+          PY
