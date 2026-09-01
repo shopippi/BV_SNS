@@ -1,0 +1,26 @@
+name: X metrics daily
+
+on:
+  schedule:
+    # 00:55 UTC = 09:55 JST（Claudeの日次ブリーフが10:00 JSTに走るので、その5分前）
+    - cron: '55 0 * * *'
+  workflow_dispatch:        # 手動でも実行できる
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - run: pip install requests
+
+      - name: Fetch X metrics and post to Discord
+        env:
+          X_CONSUMER_KEY: ${{ secrets.X_CONSUMER_KEY }}
+          X_CONSUMER_SECRET: ${{ secrets.X_CONSUMER_SECRET }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python fetch_x_metrics.py --discord
