@@ -2,15 +2,21 @@ name: X metrics daily
 
 on:
   schedule:
-    # 00:55 UTC = 09:55 JST（Claudeの日次ブリーフが10:00 JSTに走るので、その5分前）
+    # 00:55 UTC = 09:55 JST
     - cron: '55 0 * * *'
-  workflow_dispatch:        # 手動でも実行できる
+  workflow_dispatch:
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Show repository tree (debug)
+        run: |
+          echo "--- リポジトリの中身 ---"
+          find . -path ./.git -prune -o -print | sed 's|^\./||'
+          echo "------------------------"
 
       - uses: actions/setup-python@v5
         with:
@@ -23,4 +29,12 @@ jobs:
           X_CONSUMER_KEY: ${{ secrets.X_CONSUMER_KEY }}
           X_CONSUMER_SECRET: ${{ secrets.X_CONSUMER_SECRET }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        run: python fetch_x_metrics.py --discord
+        run: |
+          # 置き場所がどこでも動くように、リポジトリ内から探して実行する
+          SCRIPT=$(find . -path ./.git -prune -o -name 'fetch_x_metrics*.py' -print | head -1)
+          if [ -z "$SCRIPT" ]; then
+            echo "::error::fetch_x_metrics.py がリポジトリ内に見つかりません。上の tree を確認してください。"
+            exit 1
+          fi
+          echo "実行するファイル: $SCRIPT"
+          python "$SCRIPT" --discord
