@@ -1,219 +1,127 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-BandVape X メトリクス取得スクリプト
+name: X metrics daily
 
-@BANDVAPE_ のフォロワー数と直近投稿の指標（表示回数・いいね・リポスト・返信・引用・ブックマーク）
-を X API v2 から取得し、JSONで保存する。--discord を付けると Discord にも投稿する。
+on:
+  schedule:
+    # 00:55 UTC = 09:55 JST
+    - cron: '55 0 * * *'
+  workflow_dispatch:
 
-■ 使い方
-  1) 環境変数にキーを入れる（このファイルにキーを書かないこと）
-       export X_CONSUMER_KEY='...'
-       export X_CONSUMER_SECRET='...'
-       export DISCORD_WEBHOOK_URL='...'      # --discord を使うときだけ
-  2) 実行
-       python3 fetch_x_metrics.py
-       python3 fetch_x_metrics.py --discord
-       python3 fetch_x_metrics.py --status 2093540139066929233   # 特定投稿だけ
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
 
-■ 依存
-  requests のみ。  pip3 install requests
+      - run: pip install requests
 
-■ 消費する読み取り回数
-  通常実行で 2回（ユーザー情報1 + タイムライン1）。--status を足すと +1。
-"""
+      - name: Fetch X metrics and post to Discord
+        env:
+          X_CONSUMER_KEY: ${{ secrets.X_CONSUMER_KEY }}
+          X_CONSUMER_SECRET: ${{ secrets.X_CONSUMER_SECRET }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          python - <<'PY'
+          import os, sys, base64, datetime as dt, requests
 
-import os
-import sys
-import json
-import base64
-import argparse
-import datetime as dt
+          # ---- 設定 ----------------------------------------------------
+          USERNAME = "BANDVAPE_"
+          POSTS    = 10        # 自社の取得件数
+          RIVALS   = ["mymoods_vape", "nicopuff_pr", "nicohub_japan", "vapepenzonejp"]
+          RIVAL_HOURS = 26     # この時間内に投稿されたものだけ＝差分
+          RIVAL_MAX   = 5      # 1社あたり最大件数（費用の上限）
+          # --------------------------------------------------------------
 
-try:
-    import requests
-except ImportError:
-    sys.exit("requests が必要です:  pip3 install requests")
+          JST = dt.timezone(dt.timedelta(hours=9))
+          WD = "月火水木金土日"
 
-USERNAME = "BANDVAPE_"
-OUT_DIR = os.path.expanduser("~/bandvape-x-metrics")
+          def clean(v):
+              return os.environ[v].strip().strip('"').strip("'")
 
-TWEET_FIELDS = "created_at,public_metrics,attachments,text"
-USER_FIELDS = "public_metrics,username,name"
+          key, sec, hook = clean("X_CONSUMER_KEY"), clean("X_CONSUMER_SECRET"), clean("DISCORD_WEBHOOK_URL")
 
+          cred = base64.b64encode(f"{key}:{sec}".encode()).decode()
+          r = requests.post(
+              "https://api.x.com/oauth2/token",
+              headers={"Authorization": f"Basic {cred}",
+                       "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"},
+              data={"grant_type": "client_credentials"}, timeout=30)
+          if r.status_code != 200:
+              sys.exit(f"Bearer取得に失敗 {r.status_code}: {r.text[:300]}")
+          H = {"Authorization": f"Bearer {r.json()['access_token']}"}
 
-def get_bearer(key: str, secret: str) -> str:
-    """コンシューマーキー/シークレットから app-only Bearer Token を取得する。"""
-    cred = base64.b64encode(f"{key}:{secret}".encode()).decode()
-    r = requests.post(
-        "https://api.x.com/oauth2/token",
-        headers={
-            "Authorization": f"Basic {cred}",
-            "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
-        },
-        data={"grant_type": "client_credentials"},
-        timeout=30,
-    )
-    if r.status_code != 200:
-        sys.exit(f"Bearer Token の取得に失敗 ({r.status_code}): {r.text[:400]}")
-    return r.json()["access_token"]
+          def get(path, params, soft=False):
+              rr = requests.get("https://api.x.com/2" + path, headers=H, params=params, timeout=30)
+              if rr.status_code != 200:
+                  msg = f"APIエラー {rr.status_code} on {path}: {rr.text[:200]}"
+                  if soft:
+                      print("WARN:", msg)
+                      return None
+                  sys.exit(msg)
+              return rr.json()
 
+          now = dt.datetime.now(JST)
+          TF = "created_at,public_metrics,attachments"
 
-def api_get(bearer: str, path: str, params: dict) -> dict:
-    r = requests.get(
-        f"https://api.x.com/2{path}",
-        headers={"Authorization": f"Bearer {bearer}"},
-        params=params,
-        timeout=30,
-    )
-    if r.status_code == 429:
-        sys.exit("レート制限に達しました。時間をおいて再実行してください。")
-    if r.status_code == 403:
-        sys.exit(
-            f"403: このエンドポイントは現在のプランで読めません。\n"
-            f"Developer Portal でプラン/クレジット残高を確認してください。\n{r.text[:400]}"
-        )
-    if r.status_code != 200:
-        sys.exit(f"API エラー ({r.status_code}): {r.text[:400]}")
-    return r.json()
+          # ---- 自社 ----------------------------------------------------
+          u = get(f"/users/by/username/{USERNAME}", {"user.fields": "public_metrics"})["data"]
+          fol = u["public_metrics"]["followers_count"]
+          tl = get(f"/users/{u['id']}/tweets",
+                   {"max_results": POSTS, "exclude": "retweets", "tweet.fields": TF})
 
+          own = ["#XMETRICS v2",
+                 f"fetched_at\t{now.isoformat(timespec='seconds')}",
+                 f"followers\t{fol}",
+                 "id\tcreated_at\timpressions\treposts\tlikes\treplies\tquotes\tbookmarks\timages"]
+          for t in tl.get("data", []):
+              m = t.get("public_metrics", {})
+              own.append("\t".join(str(x) for x in [
+                  t["id"], t.get("created_at"), m.get("impression_count"),
+                  m.get("retweet_count"), m.get("like_count"), m.get("reply_count"),
+                  m.get("quote_count"), m.get("bookmark_count"),
+                  len(t.get("attachments", {}).get("media_keys", []))]))
 
-def fetch(bearer: str, status_id: str | None):
-    user = api_get(bearer, f"/users/by/username/{USERNAME}", {"user.fields": USER_FIELDS})
-    if "data" not in user:
-        sys.exit(f"ユーザーが取得できません: {json.dumps(user, ensure_ascii=False)[:400]}")
-    u = user["data"]
-    uid = u["id"]
+          body1 = (f"## X 実測 ／ {now.month}/{now.day}({WD[now.weekday()]}) {now:%H:%M} JST\n"
+                   f"フォロワー **{fol:,}**\n```\n" + "\n".join(own) + "\n```")
 
-    result = {
-        "取得時刻": dt.datetime.now().astimezone().isoformat(timespec="seconds"),
-        "アカウント": u["username"],
-        "フォロワー": u["public_metrics"]["followers_count"],
-        "フォロー中": u["public_metrics"]["following_count"],
-        "投稿数": u["public_metrics"]["tweet_count"],
-        "投稿": [],
-    }
+          # ---- 競合の差分（直近RIVAL_HOURS時間の新規投稿だけ） --------
+          since = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=RIVAL_HOURS))
+          since_s = since.strftime("%Y-%m-%dT%H:%M:%SZ")
 
-    tl = api_get(
-        bearer,
-        f"/users/{uid}/tweets",
-        {"max_results": 20, "tweet.fields": TWEET_FIELDS, "exclude": "retweets"},
-    )
-    for t in tl.get("data", []):
-        pm = t.get("public_metrics", {})
-        result["投稿"].append(
-            {
-                "url": f"https://x.com/{USERNAME}/status/{t['id']}",
-                "投稿日時": t.get("created_at"),
-                "表示回数": pm.get("impression_count"),
-                "いいね": pm.get("like_count"),
-                "リポスト": pm.get("retweet_count"),
-                "引用": pm.get("quote_count"),
-                "返信": pm.get("reply_count"),
-                "ブックマーク": pm.get("bookmark_count"),
-                "画像枚数": len(t.get("attachments", {}).get("media_keys", [])),
-                "本文": (t.get("text") or "").replace("\n", " / ")[:100],
-            }
-        )
+          riv = ["#XRIVALS v1", f"window\t直近{RIVAL_HOURS}時間",
+                 "account\tid\tcreated_at\timpressions\treposts\tlikes\treplies\tquotes\timages\ttext"]
+          found = 0
+          ru = get("/users/by", {"usernames": ",".join(RIVALS)}, soft=True)
+          for entry in (ru or {}).get("data", []):
+              res = get(f"/users/{entry['id']}/tweets",
+                        {"max_results": RIVAL_MAX, "exclude": "retweets,replies",
+                         "start_time": since_s, "tweet.fields": TF + ",text"}, soft=True)
+              for t in (res or {}).get("data", []):
+                  m = t.get("public_metrics", {})
+                  txt = (t.get("text") or "").replace("\n", " ").replace("\t", " ")[:80]
+                  riv.append("\t".join(str(x) for x in [
+                      entry["username"], t["id"], t.get("created_at"),
+                      m.get("impression_count"), m.get("retweet_count"), m.get("like_count"),
+                      m.get("reply_count"), m.get("quote_count"),
+                      len(t.get("attachments", {}).get("media_keys", [])), txt]))
+                  found += 1
 
-    if status_id:
-        one = api_get(bearer, f"/tweets/{status_id}", {"tweet.fields": TWEET_FIELDS})
-        d = one.get("data")
-        if d:
-            pm = d.get("public_metrics", {})
-            result["指定投稿"] = {
-                "url": f"https://x.com/{USERNAME}/status/{d['id']}",
-                "投稿日時": d.get("created_at"),
-                "表示回数": pm.get("impression_count"),
-                "いいね": pm.get("like_count"),
-                "リポスト": pm.get("retweet_count"),
-                "引用": pm.get("quote_count"),
-                "返信": pm.get("reply_count"),
-                "ブックマーク": pm.get("bookmark_count"),
-            }
-    return result
+          if found == 0:
+              riv.append("（この時間内に競合の新規投稿なし）")
+          body2 = f"## 競合の新規投稿 ／ 直近{RIVAL_HOURS}時間で {found}件\n```\n" + "\n".join(riv) + "\n```"
 
+          # ---- 送信 ----------------------------------------------------
+          def post(text):
+              while len(text) > 1900:
+                  text = text.rsplit("\n", 2)[0] + "\n```"
+              resp = requests.post(hook, json={
+                  "username": "Marketer",
+                  "avatar_url": "https://abs.twimg.com/emoji/v2/72x72/1f98a.png",
+                  "content": text}, timeout=30)
+              print("Discord:", resp.status_code, resp.text[:150])
+              resp.raise_for_status()
 
-def to_discord_text(r: dict) -> str:
-    """機械可読な形で出す。先頭行のマーカーで自動処理側が拾えるようにしてある。"""
-    head = (
-        f"## X 実測 ／ {r['取得時刻'][:16].replace('T', ' ')}\n"
-        f"フォロワー **{r['フォロワー']}**（フォロー中 {r['フォロー中']} / 総投稿 {r['投稿数']}）"
-    )
-    rows = [
-        "#XMETRICS v1",
-        f"fetched_at\t{r['取得時刻']}",
-        f"followers\t{r['フォロワー']}",
-        "id\tcreated_at\timpressions\treposts\tlikes\treplies\tquotes\tbookmarks\timages",
-    ]
-    for p_ in r["投稿"][:10]:
-        tid = p_["url"].rsplit("/", 1)[-1]
-        rows.append(
-            "\t".join(
-                str(x)
-                for x in [
-                    tid,
-                    p_["投稿日時"],
-                    p_["表示回数"],
-                    p_["リポスト"],
-                    p_["いいね"],
-                    p_["返信"],
-                    p_["引用"],
-                    p_["ブックマーク"],
-                    p_["画像枚数"],
-                ]
-            )
-        )
-    block = "```\n" + "\n".join(rows) + "\n```"
-    out = head + "\n" + block
-    while len(out) > 1900 and len(rows) > 5:
-        rows.pop()
-        block = "```\n" + "\n".join(rows) + "\n```"
-        out = head + "\n" + block
-    return out
-
-
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--status", help="この投稿IDの指標も個別に取る")
-    ap.add_argument("--discord", action="store_true", help="Discordにも投稿する")
-    args = ap.parse_args()
-
-    key = os.environ.get("X_CONSUMER_KEY")
-    secret = os.environ.get("X_CONSUMER_SECRET")
-    if not key or not secret:
-        sys.exit(
-            "環境変数 X_CONSUMER_KEY と X_CONSUMER_SECRET を設定してください。\n"
-            "このファイルにキーを直接書かないこと。"
-        )
-
-    bearer = get_bearer(key, secret)
-    result = fetch(bearer, args.status)
-
-    os.makedirs(OUT_DIR, exist_ok=True)
-    stamp = dt.datetime.now().strftime("%Y%m%d-%H%M")
-    path = os.path.join(OUT_DIR, f"x-{stamp}.json")
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(result, f, ensure_ascii=False, indent=1)
-
-    print(to_discord_text(result))
-    print(f"\n保存先: {path}")
-
-    if args.discord:
-        hook = os.environ.get("DISCORD_WEBHOOK_URL")
-        if not hook:
-            sys.exit("DISCORD_WEBHOOK_URL が未設定です。")
-        resp = requests.post(
-            hook,
-            json={
-                "username": "Marketer",
-                "avatar_url": "https://abs.twimg.com/emoji/v2/72x72/1f98a.png",
-                "content": to_discord_text(result),
-            },
-            timeout=30,
-        )
-        print("Discord:", resp.status_code)
-
-
-if __name__ == "__main__":
-    main()
+          print(body1); post(body1)
+          print(body2); post(body2)
+          PY
