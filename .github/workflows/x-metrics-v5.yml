@@ -1,0 +1,243 @@
+name: X metrics v5
+
+on:
+  schedule:
+    # 00:55 UTC = 09:55 JST
+    - cron: '55 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write        # 台帳をリポジトリに書き戻すため
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - run: pip install requests
+
+      - name: Fetch X metrics and post to Discord
+        env:
+          X_CONSUMER_KEY: ${{ secrets.X_CONSUMER_KEY }}
+          X_CONSUMER_SECRET: ${{ secrets.X_CONSUMER_SECRET }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          python - <<'PY'
+          import os, sys, csv, base64, statistics, datetime as dt, requests
+
+          # ---- 設定 ----------------------------------------------------
+          USERNAME = "BANDVAPE_"
+          POSTS    = 8
+          RIVALS   = ["mymoods_vape", "nicopuff_pr", "nicohub_japan",
+                      "vapepenzonejp", "Cross_Vape"]
+          BACKFILL = 40    # 台帳が空のときに1社あたり遡る件数（初回だけ）
+          DAILY    = 15    # 2回目以降、1社あたりの上限
+          LEDGER   = "data/rivals.csv"
+          # --------------------------------------------------------------
+
+          JST = dt.timezone(dt.timedelta(hours=9))
+          WD  = "月火水木金土日"
+          COLS = ["account","id","created_at","impressions","reposts","quotes",
+                  "likes","replies","images","is_quote","text"]
+
+          def clean(v):
+              return os.environ[v].strip().strip('"').strip("'")
+
+          key, sec, hook = clean("X_CONSUMER_KEY"), clean("X_CONSUMER_SECRET"), clean("DISCORD_WEBHOOK_URL")
+
+          cred = base64.b64encode(f"{key}:{sec}".encode()).decode()
+          r = requests.post("https://api.x.com/oauth2/token",
+              headers={"Authorization": f"Basic {cred}",
+                       "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"},
+              data={"grant_type": "client_credentials"}, timeout=30)
+          if r.status_code != 200:
+              sys.exit(f"Bearer取得に失敗 {r.status_code}: {r.text[:300]}")
+          H = {"Authorization": f"Bearer {r.json()['access_token']}"}
+
+          def get(path, params, soft=False):
+              rr = requests.get("https://api.x.com/2" + path, headers=H, params=params, timeout=30)
+              if rr.status_code != 200:
+                  msg = f"APIエラー {rr.status_code} on {path}: {rr.text[:200]}"
+                  if soft:
+                      print("WARN:", msg); return None
+                  sys.exit(msg)
+              return rr.json()
+
+          now = dt.datetime.now(JST)
+          TF = "created_at,public_metrics,attachments,text,referenced_tweets"
+
+          def excerpt(t, cap=56):
+              s = " ".join((t or "").split())
+              for tok in ("http://", "https://"):
+                  if tok in s:
+                      s = s.split(tok)[0].strip()
+              s = s.replace("`", "'").replace("*", "").replace("_", "")
+              return (s[:cap] + "…") if len(s) > cap else s
+
+          def when(iso):
+              c = dt.datetime.fromisoformat(iso.replace("Z", "+00:00")).astimezone(JST)
+              return c, f"{c.month}/{c.day} {c:%H:%M}", (now - c).total_seconds() / 3600
+
+          def send(text):
+              while len(text) > 1900:
+                  text = text.rsplit("\n\n", 1)[0]
+              resp = requests.post(hook, json={
+                  "username": "Marketer",
+                  "avatar_url": "https://abs.twimg.com/emoji/v2/72x72/1f98a.png",
+                  "content": text, "flags": 4}, timeout=30)
+              print("Discord:", resp.status_code, resp.text[:150])
+              resp.raise_for_status()
+
+          # ================= 自社 =======================================
+          u   = get(f"/users/by/username/{USERNAME}", {"user.fields": "public_metrics"})["data"]
+          fol = u["public_metrics"]["followers_count"]
+          tl  = get(f"/users/{u['id']}/tweets",
+                    {"max_results": POSTS, "exclude": "retweets", "tweet.fields": TF})
+
+          out = [f"## X ／ {now.month}/{now.day}({WD[now.weekday()]}) {now:%H:%M}",
+                 f"フォロワー **{fol:,}**", ""]
+          for t in tl.get("data", []):
+              m = t.get("public_metrics", {})
+              c, label, age = when(t["created_at"])
+              rt, qt = m.get("retweet_count") or 0, m.get("quote_count") or 0
+              img = len(t.get("attachments", {}).get("media_keys", []))
+              bits = [f"**{m.get('impression_count') or 0:,}表示**",
+                      f"RT{rt}" + (f"+引用{qt}" if qt else ""),
+                      f"♥{m.get('like_count') or 0}", f"💬{m.get('reply_count') or 0}",
+                      "画像なし" if img == 0 else f"画像{img}"]
+              out.append(f"**[{label}](https://x.com/{USERNAME}/status/{t['id']})**"
+                         + ("  🕒まだ伸びます" if age < 24 else ""))
+              out.append("　" + " ・ ".join(bits))
+              out.append(f"> {excerpt(t.get('text'))}")
+              out.append("")
+          send("\n".join(out).rstrip())
+
+          # 私（Claude）がURLで読めるように、機械可読な形でも書き出す
+          import json
+          snap = {"fetched_at": now.isoformat(timespec="seconds"), "followers": fol, "posts": []}
+          for t in tl.get("data", []):
+              m = t.get("public_metrics", {})
+              snap["posts"].append({
+                  "id": t["id"], "created_at": t.get("created_at"),
+                  "impressions": m.get("impression_count"),
+                  "reposts": m.get("retweet_count"), "quotes": m.get("quote_count"),
+                  "likes": m.get("like_count"), "replies": m.get("reply_count"),
+                  "bookmarks": m.get("bookmark_count"),
+                  "images": len(t.get("attachments", {}).get("media_keys", [])),
+                  "text": " ".join((t.get("text") or "").split())[:200]})
+
+          # ================= 競合（台帳つき） ============================
+          os.makedirs(os.path.dirname(LEDGER), exist_ok=True)
+          old = []
+          if os.path.exists(LEDGER):
+              with open(LEDGER, encoding="utf-8", newline="") as f:
+                  old = list(csv.DictReader(f))
+          first_run = not old
+          last_id = {}
+          for row in old:
+              a = row["account"]
+              if a not in last_id or int(row["id"]) > int(last_id[a]):
+                  last_id[a] = row["id"]
+
+          ru = get("/users/by", {"usernames": ",".join(RIVALS)}, soft=True) or {}
+          resolved = {e["username"].lower(): e for e in ru.get("data", [])}
+          missing = [n for n in RIVALS if n.lower() not in resolved]
+
+          new_rows, quotes_seen = [], []
+          for name in RIVALS:
+              e = resolved.get(name.lower())
+              if not e:
+                  continue
+              p = {"max_results": BACKFILL if first_run else DAILY,
+                   "exclude": "retweets,replies", "tweet.fields": TF}
+              if e["username"] in last_id:
+                  p["since_id"] = last_id[e["username"]]
+              res = get(f"/users/{e['id']}/tweets", p, soft=True)
+              for t in (res or {}).get("data", []):
+                  m = t.get("public_metrics", {})
+                  isq = any(x.get("type") == "quoted" for x in t.get("referenced_tweets", []))
+                  row = {"account": e["username"], "id": t["id"],
+                         "created_at": t.get("created_at"),
+                         "impressions": m.get("impression_count") or 0,
+                         "reposts": m.get("retweet_count") or 0,
+                         "quotes": m.get("quote_count") or 0,
+                         "likes": m.get("like_count") or 0,
+                         "replies": m.get("reply_count") or 0,
+                         "images": len(t.get("attachments", {}).get("media_keys", [])),
+                         "is_quote": int(isq),
+                         "text": " ".join((t.get("text") or "").split())[:200]}
+                  new_rows.append(row)
+                  if isq:
+                      quotes_seen.append(row)
+
+          # 台帳に追記（idで重複排除）
+          seen = {r["id"] for r in old}
+          merged = old + [r for r in new_rows if r["id"] not in seen]
+          with open(LEDGER, "w", encoding="utf-8", newline="") as f:
+              w = csv.DictWriter(f, fieldnames=COLS)
+              w.writeheader()
+              for r in merged:
+                  w.writerow({k: r.get(k, "") for k in COLS})
+
+          # ---- Discordに出す ----
+          o = []
+          if first_run:
+              o.append(f"## 競合台帳をつくりました ／ {len(merged)}件")
+              per = {}
+              for r in merged:
+                  per.setdefault(r["account"], []).append(int(r["impressions"]))
+              o.append("")
+              for a, vs in sorted(per.items(), key=lambda x: -statistics.median(x[1])):
+                  o.append(f"**@{a}**　{len(vs)}件　表示の中央値 **{int(statistics.median(vs)):,}**"
+                           f"　最大 {max(vs):,}")
+              o.append("")
+              o.append("明日からは、新しく増えた投稿だけを見にいきます。")
+          else:
+              fresh = sorted(new_rows, key=lambda r: -int(r["impressions"]))
+              o.append(f"## 競合の新規投稿 ／ {len(fresh)}件（台帳は計{len(merged)}件）")
+              o.append("")
+              if not fresh:
+                  o.append("前回から新しい投稿はありませんでした。")
+              for r in fresh[:8]:
+                  c, label, _ = when(r["created_at"])
+                  tag = "💬引用 " if r["is_quote"] else ""
+                  o.append(f"**@{r['account']}**　{label}　{tag}"
+                           f"[**{int(r['impressions']):,}表示** ・ "
+                           f"RT{int(r['reposts'])+int(r['quotes'])} ・ ♥{r['likes']} ・ "
+                           f"{'画像なし' if int(r['images'])==0 else '画像'+str(r['images'])}]"
+                           f"(https://x.com/{r['account']}/status/{r['id']})")
+                  o.append(f"> {excerpt(r['text'])}")
+                  o.append("")
+              if quotes_seen:
+                  o.append(f"引用リポストは {len(quotes_seen)}件。何に反応しているかの手がかりになります。")
+          if missing:
+              o.append("")
+              o.append(f"⚠ アカウント名が解決できませんでした: {', '.join(missing)}")
+          send("\n".join(o).rstrip())
+
+          snap["rivals_new"] = new_rows
+          snap["rivals_total"] = len(merged)
+          snap["rivals_median"] = {
+              a: int(statistics.median([int(r["impressions"]) for r in merged if r["account"] == a]))
+              for a in {r["account"] for r in merged}}
+          with open("latest.json", "w", encoding="utf-8") as f:
+              json.dump(snap, f, ensure_ascii=False, indent=1)
+          print("latest.json を書き出しました")
+          PY
+
+      - name: Commit ledger
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/rivals.csv latest.json
+          if git diff --staged --quiet; then
+            echo "台帳に変更なし"
+          else
+            git commit -m "競合台帳を更新 $(date -u +%Y-%m-%d)"
+            git push
+          fi
