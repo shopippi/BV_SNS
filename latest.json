@@ -1,14 +1,26 @@
 {
- "fetched_at": "2026-09-15T14:28:52+09:00",
- "followers": 462,
+ "fetched_at": "2026-09-16T14:21:57+09:00",
+ "followers": 469,
  "posts": [
   {
-   "id": "2099716158857552293",
-   "created_at": "2026-09-15T04:25:17.000Z",
-   "impressions": 41,
+   "id": "2100077643395932303",
+   "created_at": "2026-09-16T04:21:42.000Z",
+   "impressions": 68,
    "reposts": 1,
    "quotes": 0,
    "likes": 2,
+   "replies": 0,
+   "bookmarks": 0,
+   "images": 0,
+   "text": "新商品、入荷しました✔︎ https://t.co/gsOcUjpW3v"
+  },
+  {
+   "id": "2099716158857552293",
+   "created_at": "2026-09-15T04:25:17.000Z",
+   "impressions": 289,
+   "reposts": 4,
+   "quotes": 0,
+   "likes": 5,
    "replies": 0,
    "bookmarks": 0,
    "images": 1,
@@ -17,10 +29,10 @@
   {
    "id": "2099519330291683484",
    "created_at": "2026-09-14T15:23:10.000Z",
-   "impressions": 403,
-   "reposts": 7,
+   "impressions": 613,
+   "reposts": 10,
    "quotes": 0,
-   "likes": 11,
+   "likes": 14,
    "replies": 1,
    "bookmarks": 0,
    "images": 0,
@@ -29,10 +41,10 @@
   {
    "id": "2099363484458991943",
    "created_at": "2026-09-14T05:03:53.000Z",
-   "impressions": 174,
-   "reposts": 2,
+   "impressions": 235,
+   "reposts": 4,
    "quotes": 0,
-   "likes": 2,
+   "likes": 4,
    "replies": 0,
    "bookmarks": 0,
    "images": 0,
@@ -41,7 +53,7 @@
   {
    "id": "2099362095439687721",
    "created_at": "2026-09-14T04:58:22.000Z",
-   "impressions": 333,
+   "impressions": 413,
    "reposts": 4,
    "quotes": 0,
    "likes": 5,
@@ -53,7 +65,7 @@
   {
    "id": "2099356926962479424",
    "created_at": "2026-09-14T04:37:50.000Z",
-   "impressions": 374,
+   "impressions": 415,
    "reposts": 2,
    "quotes": 0,
    "likes": 2,
@@ -65,10 +77,10 @@
   {
    "id": "2098956345840115763",
    "created_at": "2026-09-13T02:06:04.000Z",
-   "impressions": 298,
-   "reposts": 5,
-   "quotes": 1,
-   "likes": 4,
+   "impressions": 418,
+   "reposts": 7,
+   "quotes": 2,
+   "likes": 5,
    "replies": 1,
    "bookmarks": 0,
    "images": 0,
@@ -77,7 +89,7 @@
   {
    "id": "2098933762478502316",
    "created_at": "2026-09-13T00:36:19.000Z",
-   "impressions": 389,
+   "impressions": 434,
    "reposts": 3,
    "quotes": 0,
    "likes": 4,
@@ -85,41 +97,29 @@
    "bookmarks": 0,
    "images": 1,
    "text": "┏━━━━━━━━┓ メンソールブラストの話 ┗━━━━━━━━┛ Marbo Bar 10K メンソールブラストは、鼻の奥まで抜けるタイプの強いメンソール。ブルーアイスよりはっきり冷たさが来ます。 1本4,500円。9月も半ばですが、まだこの冷たさを選ぶ人が多い印象です。 #ニコパフ #nicopuff #ベイプ https://t.co/sgfH76qhVa"
-  },
-  {
-   "id": "2098578561561178344",
-   "created_at": "2026-09-12T01:04:53.000Z",
-   "impressions": 388,
-   "reposts": 1,
-   "quotes": 0,
-   "likes": 3,
-   "replies": 1,
-   "bookmarks": 0,
-   "images": 1,
-   "text": "┏━━━━━━━━━━━┓ 📢直近8日の2番手・3番手 ┗━━━━━━━━━━━┛ 🥈Marbo Bar 10K グレープ味 🥉Lana Pen Plus 9K ライチ味 ライチは先週初のトップ3入り、今週も3位をキープ。グレープはダブルミントに迫る勢いです。 グレープ1本4,500円、ライチ1本4,000円。 #ニコパフ #ベイプ https://t.co/P4xcjRlpnc"
   }
  ],
  "rivals_new": [
   {
    "account": "mymoods_vape",
-   "id": "2099453114025648207",
-   "created_at": "2026-09-14T11:00:02.000Z",
-   "impressions": 246,
+   "id": "2099815504483586199",
+   "created_at": "2026-09-15T11:00:03.000Z",
+   "impressions": 218,
    "reposts": 0,
    "quotes": 0,
-   "likes": 0,
+   "likes": 1,
    "replies": 0,
    "images": 3,
    "is_quote": 0,
-   "text": "秋の気配が顔を出し、街に出るときのいつものベイプ、その香りも着替えたくなる季節。 甘さだけではない、果実の酸味や苦味があふれる『LIME』『YUZU』と共に、落ち着きあふれる秋の喧騒を楽しもう。 https://t.co/fqFBewjoi7"
+   "text": "メンソールなしのとろける吸い心地を🍭 ご褒美気分の甘いフレーバー特集🍰 PEACH🍑 ……とろんと濃厚、完熟の桃の極上かつゴージャスな甘み YOGURT BLUEBERRY🐄🫐 ……濃厚でミルキーなヨーグルトに摘みたてブルーベリーの深みある甘酸っぱさが混じり合う、お菓子のようなフレーバー https://t.co/fMNvuIqzU3"
   }
  ],
- "rivals_total": 235,
+ "rivals_total": 236,
  "rivals_median": {
-  "nicopuff_pr": 818,
-  "vapepenzonejp": 790,
   "nicohub_japan": 1586,
+  "nicopuff_pr": 818,
   "Cross_Vape": 281,
-  "mymoods_vape": 779
+  "mymoods_vape": 772,
+  "vapepenzonejp": 790
  }
 }
