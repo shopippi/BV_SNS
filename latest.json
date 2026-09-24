@@ -1,11 +1,11 @@
 {
- "fetched_at": "2026-09-23T14:16:43+09:00",
+ "fetched_at": "2026-09-24T14:32:04+09:00",
  "followers": 472,
  "posts": [
   {
    "id": "2102618886093087199",
    "created_at": "2026-09-23T04:39:41.000Z",
-   "impressions": 6,
+   "impressions": 54,
    "reposts": 0,
    "quotes": 0,
    "likes": 1,
@@ -17,10 +17,10 @@
   {
    "id": "2102618882599174361",
    "created_at": "2026-09-23T04:39:41.000Z",
-   "impressions": 19,
+   "impressions": 275,
    "reposts": 0,
    "quotes": 0,
-   "likes": 1,
+   "likes": 3,
    "replies": 1,
    "bookmarks": 0,
    "images": 1,
@@ -29,7 +29,7 @@
   {
    "id": "2102242228504842430",
    "created_at": "2026-09-22T03:42:59.000Z",
-   "impressions": 120,
+   "impressions": 151,
    "reposts": 0,
    "quotes": 0,
    "likes": 2,
@@ -41,7 +41,7 @@
   {
    "id": "2101931248822460583",
    "created_at": "2026-09-21T07:07:16.000Z",
-   "impressions": 51,
+   "impressions": 67,
    "reposts": 0,
    "quotes": 0,
    "likes": 1,
@@ -53,7 +53,7 @@
   {
    "id": "2101931244745597232",
    "created_at": "2026-09-21T07:07:15.000Z",
-   "impressions": 280,
+   "impressions": 328,
    "reposts": 0,
    "quotes": 0,
    "likes": 1,
@@ -65,7 +65,7 @@
   {
    "id": "2101530072629006684",
    "created_at": "2026-09-20T04:33:08.000Z",
-   "impressions": 76,
+   "impressions": 91,
    "reposts": 0,
    "quotes": 0,
    "likes": 1,
@@ -77,7 +77,7 @@
   {
    "id": "2101529642016571426",
    "created_at": "2026-09-20T04:31:25.000Z",
-   "impressions": 189,
+   "impressions": 209,
    "reposts": 1,
    "quotes": 0,
    "likes": 3,
@@ -89,7 +89,7 @@
   {
    "id": "2101180965817352222",
    "created_at": "2026-09-19T05:25:54.000Z",
-   "impressions": 436,
+   "impressions": 470,
    "reposts": 1,
    "quotes": 0,
    "likes": 2,
@@ -102,24 +102,24 @@
  "rivals_new": [
   {
    "account": "mymoods_vape",
-   "id": "2102352220092305726",
-   "created_at": "2026-09-22T11:00:03.000Z",
-   "impressions": 277,
+   "id": "2102714609044189288",
+   "created_at": "2026-09-23T11:00:04.000Z",
+   "impressions": 310,
    "reposts": 0,
    "quotes": 0,
    "likes": 1,
    "replies": 0,
-   "images": 1,
+   "images": 2,
    "is_quote": 0,
-   "text": "ベイプでゆったりと森林浴気分🌿 MyMoods VAPE『NATURE』 木漏れ日が揺れる中を散歩するかのように心地よい、森の澄んだ空気をイメージしたミント・メンソール系フレーバー🌳 いつものリラックスの時間にぴったりのベイプです。 https://t.co/ncx64fuDvK"
+   "text": "どんなスタイルにも、すっと馴染む。 MyMoodsVAPEのデバイスは、メタリックで高級感のあるデザインと、ポケットに入る携帯性を両立。 シンプルだからこそ際立つ、あなたの個性を映し出すベイプのフレーバー体験を、思いのままに持ち運ぼう。 https://t.co/1DmWe53gCZ"
   }
  ],
- "rivals_total": 244,
+ "rivals_total": 245,
  "rivals_median": {
-  "mymoods_vape": 718,
-  "Cross_Vape": 281,
   "nicohub_japan": 1586,
   "vapepenzonejp": 790,
+  "Cross_Vape": 281,
+  "mymoods_vape": 706,
   "nicopuff_pr": 818
  }
 }
