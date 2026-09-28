@@ -1,11 +1,11 @@
 {
- "fetched_at": "2026-09-27T14:52:31+09:00",
- "followers": 469,
+ "fetched_at": "2026-09-28T14:58:26+09:00",
+ "followers": 471,
  "posts": [
   {
    "id": "2104072756849786883",
    "created_at": "2026-09-27T04:56:51.000Z",
-   "impressions": 20,
+   "impressions": 95,
    "reposts": 0,
    "quotes": 0,
    "likes": 0,
@@ -17,7 +17,7 @@
   {
    "id": "2103667824527048777",
    "created_at": "2026-09-26T02:07:48.000Z",
-   "impressions": 28,
+   "impressions": 55,
    "reposts": 0,
    "quotes": 0,
    "likes": 0,
@@ -29,7 +29,7 @@
   {
    "id": "2103666815725691168",
    "created_at": "2026-09-26T02:03:47.000Z",
-   "impressions": 337,
+   "impressions": 387,
    "reposts": 1,
    "quotes": 0,
    "likes": 4,
@@ -41,7 +41,7 @@
   {
    "id": "2103042415582175701",
    "created_at": "2026-09-24T08:42:39.000Z",
-   "impressions": 59,
+   "impressions": 83,
    "reposts": 0,
    "quotes": 0,
    "likes": 0,
@@ -53,7 +53,7 @@
   {
    "id": "2103042177744175210",
    "created_at": "2026-09-24T08:41:42.000Z",
-   "impressions": 189,
+   "impressions": 218,
    "reposts": 2,
    "quotes": 0,
    "likes": 3,
@@ -65,7 +65,7 @@
   {
    "id": "2102618886093087199",
    "created_at": "2026-09-23T04:39:41.000Z",
-   "impressions": 87,
+   "impressions": 103,
    "reposts": 0,
    "quotes": 0,
    "likes": 1,
@@ -77,7 +77,7 @@
   {
    "id": "2102618882599174361",
    "created_at": "2026-09-23T04:39:41.000Z",
-   "impressions": 397,
+   "impressions": 437,
    "reposts": 0,
    "quotes": 0,
    "likes": 3,
@@ -89,7 +89,7 @@
   {
    "id": "2102242228504842430",
    "created_at": "2026-09-22T03:42:59.000Z",
-   "impressions": 183,
+   "impressions": 198,
    "reposts": 0,
    "quotes": 0,
    "likes": 2,
@@ -102,24 +102,24 @@
  "rivals_new": [
   {
    "account": "mymoods_vape",
-   "id": "2103801771164360747",
-   "created_at": "2026-09-26T11:00:03.000Z",
-   "impressions": 343,
+   "id": "2104164919214289278",
+   "created_at": "2026-09-27T11:03:04.000Z",
+   "impressions": 330,
    "reposts": 0,
    "quotes": 0,
    "likes": 0,
    "replies": 0,
-   "images": 2,
+   "images": 1,
    "is_quote": 0,
-   "text": ".𖥔 ݁ ˖ ✦ ‧₊˚ ⋅.𖥔.𖥔 ݁ ˖ ✦ ‧₊˚ ⋅.𖥔‧₊˚ 今話題のベイプ・電子シーシャ入門に！ POD型VAPEのMyMoods VAPE .𖥔 ݁ ˖ ✦ ‧₊˚ ⋅.𖥔.𖥔 ݁ ˖ ✦ ‧₊˚ ⋅.𖥔‧₊˚ MyMoods VAPEのスターターキットは、約5000パフ（吸引回数）のフレーバーポッド＋専用デバイスがセットに。 https://t.co/RCGqBn6JfP"
+   "text": "【ご注意ください】 ・販売サイトなどを経由せずに、SNSなどを用いて個人や業者を名乗る者から国内で直接ニコチンベイプ•ニコパフを売り買いする ・友人や第三者などからニコチンベイプを直接譲渡される、あるいは譲渡する https://t.co/5Z5hcutlEI"
   }
  ],
- "rivals_total": 250,
+ "rivals_total": 251,
  "rivals_median": {
-  "mymoods_vape": 693,
   "Cross_Vape": 281,
-  "vapepenzonejp": 790,
   "nicohub_japan": 1586,
+  "vapepenzonejp": 790,
+  "mymoods_vape": 691,
   "nicopuff_pr": 818
  }
 }
