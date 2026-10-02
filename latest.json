@@ -1,11 +1,23 @@
 {
- "fetched_at": "2026-10-01T15:37:01+09:00",
- "followers": 472,
+ "fetched_at": "2026-10-02T15:19:07+09:00",
+ "followers": 473,
  "posts": [
+  {
+   "id": "2105644523359748223",
+   "created_at": "2026-10-01T13:02:30.000Z",
+   "impressions": 112,
+   "reposts": 1,
+   "quotes": 0,
+   "likes": 2,
+   "replies": 0,
+   "bookmarks": 0,
+   "images": 1,
+   "text": "Marbo 9K ダブルミント🌱 ✔︎しっかりとした吸いごたえ。 ✔︎すっきりとしたミントの爽快感。 吸うなら、 すっきり心地よく。 ニオイを気にせず楽しみたい人にも。 https://t.co/7FxCkB1jWK"
+  },
   {
    "id": "2105461300398846128",
    "created_at": "2026-10-01T00:54:26.000Z",
-   "impressions": 37,
+   "impressions": 72,
    "reposts": 0,
    "quotes": 0,
    "likes": 1,
@@ -17,7 +29,7 @@
   {
    "id": "2105179569343082896",
    "created_at": "2026-09-30T06:14:56.000Z",
-   "impressions": 177,
+   "impressions": 245,
    "reposts": 0,
    "quotes": 0,
    "likes": 2,
@@ -29,7 +41,7 @@
   {
    "id": "2104795830603714872",
    "created_at": "2026-09-29T04:50:05.000Z",
-   "impressions": 223,
+   "impressions": 262,
    "reposts": 3,
    "quotes": 0,
    "likes": 4,
@@ -41,7 +53,7 @@
   {
    "id": "2104072756849786883",
    "created_at": "2026-09-27T04:56:51.000Z",
-   "impressions": 141,
+   "impressions": 156,
    "reposts": 0,
    "quotes": 0,
    "likes": 0,
@@ -53,7 +65,7 @@
   {
    "id": "2103667824527048777",
    "created_at": "2026-09-26T02:07:48.000Z",
-   "impressions": 86,
+   "impressions": 94,
    "reposts": 0,
    "quotes": 0,
    "likes": 0,
@@ -65,7 +77,7 @@
   {
    "id": "2103666815725691168",
    "created_at": "2026-09-26T02:03:47.000Z",
-   "impressions": 444,
+   "impressions": 471,
    "reposts": 1,
    "quotes": 0,
    "likes": 4,
@@ -77,7 +89,7 @@
   {
    "id": "2103042415582175701",
    "created_at": "2026-09-24T08:42:39.000Z",
-   "impressions": 108,
+   "impressions": 112,
    "reposts": 0,
    "quotes": 0,
    "likes": 0,
@@ -85,41 +97,55 @@
    "bookmarks": 0,
    "images": 0,
    "text": "https://t.co/Q03RQ2GzE0"
-  },
-  {
-   "id": "2103042177744175210",
-   "created_at": "2026-09-24T08:41:42.000Z",
-   "impressions": 247,
-   "reposts": 2,
-   "quotes": 0,
-   "likes": 3,
-   "replies": 1,
-   "bookmarks": 0,
-   "images": 2,
-   "text": "🛒シルバーウィークセール ＼ 終了まで残り4日！／ 最大15%OFFのお得なセール開催中🔥 さらに今なら送料無料🚚 この機会にお得にGETしてください✔︎ https://t.co/RBf06DFTxe"
   }
  ],
  "rivals_new": [
   {
    "account": "mymoods_vape",
-   "id": "2105251310971064333",
-   "created_at": "2026-09-30T11:00:00.000Z",
-   "impressions": 480,
+   "id": "2105613710391755127",
+   "created_at": "2026-10-01T11:00:03.000Z",
+   "impressions": 212,
    "reposts": 0,
    "quotes": 0,
    "likes": 0,
    "replies": 0,
-   "images": 2,
+   "images": 1,
    "is_quote": 0,
-   "text": "ラヴ上等2の映り込みで話題沸騰❤️‍🔥 ベイプ・ポケットシーシャとは🫧 フレーバーが含まれる液体（リキッド）を電気によって加熱、発生した蒸気を吸う電子タバコの一種です。加熱式タバコであるアイコスなどとは仕組みが異なり、別物となります。 https://t.co/B5TdWNFIWL"
+   "text": "\\\\ MyMoods SESSIONS // 🎥新作映像続々公開中🎥 日本発ベイプブランド・MyMoodsがお届けする、特定のジャンルや場所に縛られない、その瞬間のムードを音と映像で克明にパッケージするYouTubeシリーズ。 https://t.co/LDEXyIYTXY"
+  },
+  {
+   "account": "Cross_Vape",
+   "id": "2105868701585277110",
+   "created_at": "2026-10-02T03:53:18.000Z",
+   "impressions": 309,
+   "reposts": 5,
+   "quotes": 1,
+   "likes": 9,
+   "replies": 0,
+   "images": 1,
+   "is_quote": 0,
+   "text": "こっちも😁 https://t.co/eMzSOW1XEU https://t.co/4rWlfLQXCU"
+  },
+  {
+   "account": "Cross_Vape",
+   "id": "2105868599797952799",
+   "created_at": "2026-10-02T03:52:53.000Z",
+   "impressions": 279,
+   "reposts": 3,
+   "quotes": 0,
+   "likes": 7,
+   "replies": 0,
+   "images": 1,
+   "is_quote": 0,
+   "text": "セット売り出たよ😁 https://t.co/srch8615Mo https://t.co/QofhOrwZwW"
   }
  ],
- "rivals_total": 258,
+ "rivals_total": 261,
  "rivals_median": {
-  "nicohub_japan": 1586,
   "vapepenzonejp": 790,
+  "mymoods_vape": 664,
   "nicopuff_pr": 818,
   "Cross_Vape": 298,
-  "mymoods_vape": 685
+  "nicohub_japan": 1586
  }
 }
