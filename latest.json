@@ -1,11 +1,23 @@
 {
- "fetched_at": "2026-10-08T15:42:26+09:00",
+ "fetched_at": "2026-10-09T15:49:24+09:00",
  "followers": 473,
  "posts": [
   {
+   "id": "2108390748592992313",
+   "created_at": "2026-10-09T02:55:01.000Z",
+   "impressions": 144,
+   "reposts": 4,
+   "quotes": 0,
+   "likes": 4,
+   "replies": 1,
+   "bookmarks": 0,
+   "images": 0,
+   "text": "パフマにてプレゼント企画開始😎🎁 https://t.co/dGBiNmCmg7"
+  },
+  {
    "id": "2107832932761260108",
    "created_at": "2026-10-07T13:58:27.000Z",
-   "impressions": 105,
+   "impressions": 140,
    "reposts": 0,
    "quotes": 0,
    "likes": 2,
@@ -17,7 +29,7 @@
   {
    "id": "2107455576401932416",
    "created_at": "2026-10-06T12:58:58.000Z",
-   "impressions": 166,
+   "impressions": 220,
    "reposts": 0,
    "quotes": 0,
    "likes": 0,
@@ -29,7 +41,7 @@
   {
    "id": "2107389854866948485",
    "created_at": "2026-10-06T08:37:49.000Z",
-   "impressions": 191,
+   "impressions": 209,
    "reposts": 0,
    "quotes": 0,
    "likes": 0,
@@ -41,7 +53,7 @@
   {
    "id": "2107005841551560959",
    "created_at": "2026-10-05T07:11:53.000Z",
-   "impressions": 382,
+   "impressions": 406,
    "reposts": 1,
    "quotes": 0,
    "likes": 3,
@@ -53,7 +65,7 @@
   {
    "id": "2106577518182735943",
    "created_at": "2026-10-04T02:49:53.000Z",
-   "impressions": 439,
+   "impressions": 472,
    "reposts": 1,
    "quotes": 0,
    "likes": 3,
@@ -65,7 +77,7 @@
   {
    "id": "2106374798507118866",
    "created_at": "2026-10-03T13:24:21.000Z",
-   "impressions": 294,
+   "impressions": 312,
    "reposts": 1,
    "quotes": 0,
    "likes": 3,
@@ -73,41 +85,29 @@
    "bookmarks": 0,
    "images": 1,
    "text": "＼ Marbo 10K｜抹茶ラテ味🍵 ／ 茶葉の渋みとミルクの甘さ。 甘ったるすぎず、後味に抹茶の渋みが残ります。 ✔︎フルーツ系以外を探している方に #VAPE #ニコパフ #喫煙 https://t.co/huzLd7kuJg"
-  },
-  {
-   "id": "2105966806611689520",
-   "created_at": "2026-10-02T10:23:08.000Z",
-   "impressions": 305,
-   "reposts": 2,
-   "quotes": 0,
-   "likes": 3,
-   "replies": 0,
-   "bookmarks": 0,
-   "images": 1,
-   "text": "コンパクトなのに大満足の吸いごたえ ＼Lana Pen 9K／ 初心者からヘビーユーザーまで満足できる次世代VAPE。 フルーティーから爽快系まで豊富なフレーバー展開。 ✔︎「長持ち」「コスパ」「味」すべてを求めるならこれ。 #BandVape #ニコパフ #VAPE https://t.co/ziaeuvcc7q"
   }
  ],
  "rivals_new": [
   {
    "account": "mymoods_vape",
-   "id": "2107788025631780941",
-   "created_at": "2026-10-07T11:00:00.000Z",
-   "impressions": 288,
+   "id": "2108150414185304547",
+   "created_at": "2026-10-08T11:00:00.000Z",
+   "impressions": 342,
    "reposts": 0,
    "quotes": 0,
-   "likes": 1,
+   "likes": 0,
    "replies": 0,
-   "images": 1,
+   "images": 2,
    "is_quote": 0,
-   "text": "秋だからこそ味わう🍋🧊 どんより気分も一気に爽快なデザートフレーバー🍧 MyMoods VAPE『LEMON SHERBET』は、さわやかなレモンと喉を突き抜ける冷たいメンソール感が一気に味わえるベイプ。 https://t.co/PeS1VV7Xal"
+   "text": ".𖥔 ݁ ˖ ✦ ‧₊˚ ⋅.𖥔.𖥔 ݁ ˖ ✦ ‧₊˚ ⋅.𖥔‧₊˚ 今話題のベイプ・電子シーシャ入門に！ POD型VAPEのMyMoods VAPE .𖥔 ݁ ˖ ✦ ‧₊˚ ⋅.𖥔.𖥔 ݁ ˖ ✦ ‧₊˚ ⋅.𖥔‧₊˚ MyMoods VAPEのスターターキットは、約5000パフ（吸引回数）のフレーバーポッド＋専用デバイスがセットに。 https://t.co/MoyXlHMRmE"
   }
  ],
- "rivals_total": 275,
+ "rivals_total": 276,
  "rivals_median": {
-  "nicohub_japan": 1586,
-  "mymoods_vape": 644,
-  "Cross_Vape": 290,
   "nicopuff_pr": 818,
-  "vapepenzonejp": 790
+  "Cross_Vape": 290,
+  "nicohub_japan": 1586,
+  "vapepenzonejp": 790,
+  "mymoods_vape": 639
  }
 }
