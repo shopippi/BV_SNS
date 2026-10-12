@@ -1,11 +1,23 @@
 {
- "fetched_at": "2026-10-11T15:32:19+09:00",
- "followers": 475,
+ "fetched_at": "2026-10-12T15:38:07+09:00",
+ "followers": 477,
  "posts": [
+  {
+   "id": "2109226446237675801",
+   "created_at": "2026-10-11T10:15:46.000Z",
+   "impressions": 101,
+   "reposts": 0,
+   "quotes": 0,
+   "likes": 0,
+   "replies": 0,
+   "bookmarks": 0,
+   "images": 1,
+   "text": "＼LANAを自分好みにカスタム／ めじるしアクセサリーをつけるだけで こんなにかわいく🙆‍♀️ お気に入りをつけて楽しんでみて下さい😉 https://t.co/BfcNTYnKum"
+  },
   {
    "id": "2108879654820188263",
    "created_at": "2026-10-10T11:17:45.000Z",
-   "impressions": 137,
+   "impressions": 195,
    "reposts": 0,
    "quotes": 0,
    "likes": 1,
@@ -17,7 +29,7 @@
   {
    "id": "2108390748592992313",
    "created_at": "2026-10-09T02:55:01.000Z",
-   "impressions": 255,
+   "impressions": 273,
    "reposts": 4,
    "quotes": 0,
    "likes": 5,
@@ -29,7 +41,7 @@
   {
    "id": "2107832932761260108",
    "created_at": "2026-10-07T13:58:27.000Z",
-   "impressions": 189,
+   "impressions": 203,
    "reposts": 1,
    "quotes": 0,
    "likes": 3,
@@ -41,7 +53,7 @@
   {
    "id": "2107455576401932416",
    "created_at": "2026-10-06T12:58:58.000Z",
-   "impressions": 268,
+   "impressions": 304,
    "reposts": 0,
    "quotes": 0,
    "likes": 0,
@@ -53,7 +65,7 @@
   {
    "id": "2107389854866948485",
    "created_at": "2026-10-06T08:37:49.000Z",
-   "impressions": 242,
+   "impressions": 256,
    "reposts": 0,
    "quotes": 0,
    "likes": 0,
@@ -65,49 +77,37 @@
   {
    "id": "2107005841551560959",
    "created_at": "2026-10-05T07:11:53.000Z",
-   "impressions": 452,
+   "impressions": 472,
    "reposts": 2,
    "quotes": 0,
-   "likes": 4,
+   "likes": 5,
    "replies": 0,
    "bookmarks": 0,
    "images": 1,
    "text": "＼Lana Pen 9K｜バブルガム味🫧／ ✔︎コンパクトで、スタイリッシュなLanaシリーズ。 スマートに持ち歩けるデザインに、 ひと口で広がる甘く濃厚なバブルガムフレーバー🫧 やみつきになる味😈 #VAPE #ベイプ #喫煙 https://t.co/38fxHFWFBQ"
-  },
-  {
-   "id": "2106577518182735943",
-   "created_at": "2026-10-04T02:49:53.000Z",
-   "impressions": 516,
-   "reposts": 1,
-   "quotes": 0,
-   "likes": 3,
-   "replies": 0,
-   "bookmarks": 0,
-   "images": 1,
-   "text": "🧊頭の芯まで冷える感覚です ＼Marbo Bar 10K |メンソールブラスト／ 当店のメンソール系の中では一番強い一本。 スイートさゼロ、冷たさだけを狙うならこれです✔︎ 1本4,500円。 #ニコパフ #nicopuff #ベイプ https://t.co/EUgREqOkmn"
   }
  ],
  "rivals_new": [
   {
    "account": "mymoods_vape",
-   "id": "2108875189861724319",
-   "created_at": "2026-10-10T11:00:00.000Z",
-   "impressions": 426,
+   "id": "2109237579115823441",
+   "created_at": "2026-10-11T11:00:01.000Z",
+   "impressions": 396,
    "reposts": 0,
    "quotes": 0,
    "likes": 0,
    "replies": 0,
-   "images": 2,
-   "is_quote": 0,
-   "text": "10/1より増税、加熱式タバコが20〜40円値上げ💥 MyMoods VAPEで賢く楽しい体験を。 すべてを切り替えなくても、一部をベイプに置き換えるだけでも気分転換&amp;節約に💰 https://t.co/B0SMHhahyX"
+   "images": 0,
+   "is_quote": 1,
+   "text": "【ベイプへの置き換えでどれくらいお得？】 1日にひと箱（20本、約200パフで計算）吸う人の場合の月額は……💨 ◆加熱式タバコ（例•1日にひと箱吸う人の場合（20本、約200パフで計算）） •IQOS テリア 1箱640円 ＝1パフあたり3.2円 ひと月合計約19,840円 •ploom メビウス 1箱590円 https://t.co/am0OPeBdP4"
   }
  ],
- "rivals_total": 279,
+ "rivals_total": 280,
  "rivals_median": {
   "Cross_Vape": 298,
-  "nicopuff_pr": 818,
   "nicohub_japan": 1586,
-  "mymoods_vape": 632,
-  "vapepenzonejp": 790
+  "nicopuff_pr": 818,
+  "vapepenzonejp": 790,
+  "mymoods_vape": 629
  }
 }
