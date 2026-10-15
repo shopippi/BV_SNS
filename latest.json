@@ -1,14 +1,14 @@
 {
- "fetched_at": "2026-10-14T14:30:31+09:00",
- "followers": 482,
+ "fetched_at": "2026-10-15T14:19:36+09:00",
+ "followers": 483,
  "posts": [
   {
    "id": "2110163763047563552",
    "created_at": "2026-10-14T00:20:20.000Z",
-   "impressions": 56,
-   "reposts": 0,
+   "impressions": 105,
+   "reposts": 1,
    "quotes": 0,
-   "likes": 1,
+   "likes": 2,
    "replies": 0,
    "bookmarks": 0,
    "images": 0,
@@ -17,10 +17,10 @@
   {
    "id": "2110163504296829372",
    "created_at": "2026-10-14T00:19:19.000Z",
-   "impressions": 59,
-   "reposts": 0,
+   "impressions": 127,
+   "reposts": 1,
    "quotes": 0,
-   "likes": 1,
+   "likes": 3,
    "replies": 0,
    "bookmarks": 0,
    "images": 0,
@@ -29,7 +29,7 @@
   {
    "id": "2109872098743345575",
    "created_at": "2026-10-13T05:01:22.000Z",
-   "impressions": 19,
+   "impressions": 22,
    "reposts": 0,
    "quotes": 0,
    "likes": 0,
@@ -41,7 +41,7 @@
   {
    "id": "2109831711173575143",
    "created_at": "2026-10-13T02:20:53.000Z",
-   "impressions": 95,
+   "impressions": 108,
    "reposts": 1,
    "quotes": 0,
    "likes": 2,
@@ -53,7 +53,7 @@
   {
    "id": "2109546435444359574",
    "created_at": "2026-10-12T07:27:18.000Z",
-   "impressions": 194,
+   "impressions": 223,
    "reposts": 2,
    "quotes": 0,
    "likes": 2,
@@ -65,7 +65,7 @@
   {
    "id": "2109226446237675801",
    "created_at": "2026-10-11T10:15:46.000Z",
-   "impressions": 208,
+   "impressions": 238,
    "reposts": 1,
    "quotes": 0,
    "likes": 4,
@@ -77,7 +77,7 @@
   {
    "id": "2108879654820188263",
    "created_at": "2026-10-10T11:17:45.000Z",
-   "impressions": 261,
+   "impressions": 276,
    "reposts": 0,
    "quotes": 0,
    "likes": 1,
@@ -90,37 +90,24 @@
  "rivals_new": [
   {
    "account": "mymoods_vape",
-   "id": "2109962365437460904",
-   "created_at": "2026-10-13T11:00:03.000Z",
-   "impressions": 320,
+   "id": "2110324752317603896",
+   "created_at": "2026-10-14T11:00:03.000Z",
+   "impressions": 200,
    "reposts": 0,
    "quotes": 0,
    "likes": 0,
    "replies": 0,
-   "images": 1,
+   "images": 2,
    "is_quote": 0,
-   "text": "／ MyMoods VAPE 公式LINE登録がおすすめです😎 ＼ ・質問に答えるだけ、フレーバー診断📊 ・お得なベイプ・ポケットシーシャの情報を一早くゲット🎫 MyMoods VAPEで、『気分をデザインする』新しい体験を見つけよう。プロフィールのリンクから今すぐ登録✅ https://t.co/UMCx1DdrYZ"
-  },
-  {
-   "account": "Cross_Vape",
-   "id": "2109978704625775105",
-   "created_at": "2026-10-13T12:04:59.000Z",
-   "impressions": 463,
-   "reposts": 7,
-   "quotes": 0,
-   "likes": 17,
-   "replies": 0,
-   "images": 1,
-   "is_quote": 0,
-   "text": "https://t.co/bbibloqQS7 https://t.co/LsLbQtCPTl"
+   "text": "吹き抜ける南の風に体を任せて🏖️ 『GUAVA ICE』 きんと冷たいメンソールに、さわやかでみずみずしいグァバの味わいが楽しいベイプ。バランスの取れた味わいで、たくさんの人におすすめできる味わいです✌️ 喉を突き抜ける爽快感とエキゾチックな香りで、ワンランク上のリラックスを😎 https://t.co/jmWZ06GVjE"
   }
  ],
- "rivals_total": 285,
+ "rivals_total": 286,
  "rivals_median": {
   "nicopuff_pr": 818,
-  "mymoods_vape": 624,
   "Cross_Vape": 300,
+  "vapepenzonejp": 790,
   "nicohub_japan": 1586,
-  "vapepenzonejp": 790
+  "mymoods_vape": 613
  }
 }
