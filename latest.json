@@ -1,15 +1,27 @@
 {
- "fetched_at": "2026-10-19T14:24:11+09:00",
- "followers": 508,
+ "fetched_at": "2026-10-20T14:25:41+09:00",
+ "followers": 510,
  "posts": [
+  {
+   "id": "2112280748317376753",
+   "created_at": "2026-10-19T20:32:29.000Z",
+   "impressions": 144,
+   "reposts": 0,
+   "quotes": 0,
+   "likes": 2,
+   "replies": 0,
+   "bookmarks": 0,
+   "images": 0,
+   "text": "姉妹ブランドPUFFMARTにて、韓国で話題のニコパフBubblemonを市場最安値で販売中📢 #bubblemon #ニコパフ #vape https://t.co/35iB4pSYU9"
+  },
   {
    "id": "2111770759689564374",
    "created_at": "2026-10-18T10:45:58.000Z",
-   "impressions": 235,
-   "reposts": 3,
+   "impressions": 275,
+   "reposts": 5,
    "quotes": 1,
-   "likes": 6,
-   "replies": 0,
+   "likes": 9,
+   "replies": 1,
    "bookmarks": 0,
    "images": 0,
    "text": "もうすぐ〆切です😎✨ https://t.co/dGBiNmCmg7"
@@ -17,7 +29,7 @@
   {
    "id": "2111323656886554989",
    "created_at": "2026-10-17T05:09:20.000Z",
-   "impressions": 157,
+   "impressions": 167,
    "reposts": 1,
    "quotes": 0,
    "likes": 2,
@@ -29,10 +41,10 @@
   {
    "id": "2111052911509991914",
    "created_at": "2026-10-16T11:13:30.000Z",
-   "impressions": 57,
-   "reposts": 0,
+   "impressions": 68,
+   "reposts": 1,
    "quotes": 0,
-   "likes": 1,
+   "likes": 2,
    "replies": 0,
    "bookmarks": 0,
    "images": 0,
@@ -41,7 +53,7 @@
   {
    "id": "2111052792450490479",
    "created_at": "2026-10-16T11:13:01.000Z",
-   "impressions": 93,
+   "impressions": 105,
    "reposts": 3,
    "quotes": 0,
    "likes": 5,
@@ -53,19 +65,19 @@
   {
    "id": "2110932925881655636",
    "created_at": "2026-10-16T03:16:43.000Z",
-   "impressions": 1971,
-   "reposts": 67,
+   "impressions": 2150,
+   "reposts": 70,
    "quotes": 3,
-   "likes": 70,
-   "replies": 19,
-   "bookmarks": 4,
+   "likes": 73,
+   "replies": 21,
+   "bookmarks": 5,
    "images": 1,
    "text": "＼ Bandvape プレゼント企画 🎁 ／ Lana Pen Plus 9K 抽選で2名様にプレゼント！ 【応募方法】 ① @Bandvape をフォロー ② この投稿にいいね ③ この投稿をリポスト 📅 応募期間：10/16(金)〜10/25(日) たくさんのご応募お待ちしております！ #Bandvape #プレゼント企画 https://t.co/WJMHv9JJHB"
   },
   {
    "id": "2110666624919535816",
    "created_at": "2026-10-15T09:38:32.000Z",
-   "impressions": 302,
+   "impressions": 322,
    "reposts": 1,
    "quotes": 0,
    "likes": 3,
@@ -73,41 +85,55 @@
    "bookmarks": 0,
    "images": 2,
    "text": "＼✔︎ Marbo Bar 10K／ Marbo Bar 9Kの完成度を、さらに磨き上げた一本。 味、煙量、吸い心地、操作性。 すべてを高い水準で追求。 日常のVAPE体験を、もう一段上へ。 #ベイプ #VAPE #ニコパフ #電子タバコ https://t.co/808a392Xg2"
-  },
-  {
-   "id": "2110163763047563552",
-   "created_at": "2026-10-14T00:20:20.000Z",
-   "impressions": 216,
-   "reposts": 1,
-   "quotes": 0,
-   "likes": 2,
-   "replies": 0,
-   "bookmarks": 0,
-   "images": 0,
-   "text": "マイメロの目標チャームとLANA PEN 9Kの相性抜群です✨ https://t.co/96RiNY0oyR"
   }
  ],
  "rivals_new": [
   {
    "account": "mymoods_vape",
-   "id": "2111774298583273551",
-   "created_at": "2026-10-18T11:00:02.000Z",
-   "impressions": 201,
+   "id": "2112136684120981791",
+   "created_at": "2026-10-19T11:00:01.000Z",
+   "impressions": 194,
    "reposts": 0,
    "quotes": 0,
    "likes": 0,
    "replies": 0,
+   "images": 2,
+   "is_quote": 0,
+   "text": "𖥔 ݁ ˖ ✦ ‧₊˚ ⋅.𖥔.𖥔 ݁ ˖ ✦ ‧₊˚ ⋅.𖥔 自由きままに。 🫧ベイプの吸い方•楽しみ方🫧 .𖥔 ݁ ˖ ✦ ‧₊˚ ⋅.𖥔.𖥔 ݁ ˖ ✦ ‧₊˚ ⋅.𖥔 デバイスをしっかりと充電し、マウスピース（吸い口）に口をつけ、深く息を吸うだけ。 上質なフレーバーと味わいが瞬く間に広がります💨 https://t.co/13Azqubm2j"
+  },
+  {
+   "account": "Cross_Vape",
+   "id": "2112151790410203335",
+   "created_at": "2026-10-19T12:00:03.000Z",
+   "impressions": 396,
+   "reposts": 4,
+   "quotes": 0,
+   "likes": 10,
+   "replies": 0,
    "images": 1,
    "is_quote": 0,
-   "text": "【ベイプはこんなシーンでおすすめ】 ・勉強や仕事の合間に ・ゲームの途中の休憩に ・いつものリラックスタイムに添えて お気に入りの味や香りを楽しんで、毎日をさらにより良いものへ。 https://t.co/EKMoeely5m"
+   "text": "【CrossVape 在庫一斉SALE】🔥 人気モデルのセール情報を公開中！ ATVS AL SAHIM 8,000円 → 7,000円 FIZZY Smart 150K 7,500円 → 6,500円 FIZZY Twins 50K 5,500円 → 5,000円 ▼詳細はこちら https://t.co/AsazIolVWl #ニコパフ #CrossVape https://t.co/1oEk"
+  },
+  {
+   "account": "Cross_Vape",
+   "id": "2112086881089560603",
+   "created_at": "2026-10-19T07:42:07.000Z",
+   "impressions": 353,
+   "reposts": 1,
+   "quotes": 0,
+   "likes": 7,
+   "replies": 0,
+   "images": 0,
+   "is_quote": 0,
+   "text": "【ニコチンフリー】FIZZY SMART セール中 通常4,980円 → 4,000円 ニコチン0のVAPE。1台で15種類のフレーバー。 ※このアカウントは20歳以上の方に向けたものです。 #ニコチンフリー #VAPE"
   }
  ],
- "rivals_total": 290,
+ "rivals_total": 293,
  "rivals_median": {
+  "mymoods_vape": 480,
   "nicohub_japan": 1586,
-  "mymoods_vape": 490,
-  "vapepenzonejp": 790,
   "nicopuff_pr": 818,
-  "Cross_Vape": 300
+  "vapepenzonejp": 790,
+  "Cross_Vape": 303
  }
 }
