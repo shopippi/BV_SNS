@@ -1,12 +1,12 @@
 {
- "fetched_at": "2026-10-20T14:25:41+09:00",
+ "fetched_at": "2026-10-21T14:23:06+09:00",
  "followers": 510,
  "posts": [
   {
    "id": "2112280748317376753",
    "created_at": "2026-10-19T20:32:29.000Z",
-   "impressions": 144,
-   "reposts": 0,
+   "impressions": 245,
+   "reposts": 1,
    "quotes": 0,
    "likes": 2,
    "replies": 0,
@@ -17,7 +17,7 @@
   {
    "id": "2111770759689564374",
    "created_at": "2026-10-18T10:45:58.000Z",
-   "impressions": 275,
+   "impressions": 297,
    "reposts": 5,
    "quotes": 1,
    "likes": 9,
@@ -29,7 +29,7 @@
   {
    "id": "2111323656886554989",
    "created_at": "2026-10-17T05:09:20.000Z",
-   "impressions": 167,
+   "impressions": 173,
    "reposts": 1,
    "quotes": 0,
    "likes": 2,
@@ -41,7 +41,7 @@
   {
    "id": "2111052911509991914",
    "created_at": "2026-10-16T11:13:30.000Z",
-   "impressions": 68,
+   "impressions": 72,
    "reposts": 1,
    "quotes": 0,
    "likes": 2,
@@ -53,7 +53,7 @@
   {
    "id": "2111052792450490479",
    "created_at": "2026-10-16T11:13:01.000Z",
-   "impressions": 105,
+   "impressions": 109,
    "reposts": 3,
    "quotes": 0,
    "likes": 5,
@@ -65,10 +65,10 @@
   {
    "id": "2110932925881655636",
    "created_at": "2026-10-16T03:16:43.000Z",
-   "impressions": 2150,
-   "reposts": 70,
+   "impressions": 2258,
+   "reposts": 71,
    "quotes": 3,
-   "likes": 73,
+   "likes": 74,
    "replies": 21,
    "bookmarks": 5,
    "images": 1,
@@ -77,7 +77,7 @@
   {
    "id": "2110666624919535816",
    "created_at": "2026-10-15T09:38:32.000Z",
-   "impressions": 322,
+   "impressions": 343,
    "reposts": 1,
    "quotes": 0,
    "likes": 3,
@@ -90,50 +90,50 @@
  "rivals_new": [
   {
    "account": "mymoods_vape",
-   "id": "2112136684120981791",
-   "created_at": "2026-10-19T11:00:01.000Z",
-   "impressions": 194,
+   "id": "2112499075530846401",
+   "created_at": "2026-10-20T11:00:02.000Z",
+   "impressions": 281,
    "reposts": 0,
    "quotes": 0,
    "likes": 0,
    "replies": 0,
-   "images": 2,
+   "images": 1,
    "is_quote": 0,
-   "text": "𖥔 ݁ ˖ ✦ ‧₊˚ ⋅.𖥔.𖥔 ݁ ˖ ✦ ‧₊˚ ⋅.𖥔 自由きままに。 🫧ベイプの吸い方•楽しみ方🫧 .𖥔 ݁ ˖ ✦ ‧₊˚ ⋅.𖥔.𖥔 ݁ ˖ ✦ ‧₊˚ ⋅.𖥔 デバイスをしっかりと充電し、マウスピース（吸い口）に口をつけ、深く息を吸うだけ。 上質なフレーバーと味わいが瞬く間に広がります💨 https://t.co/13Azqubm2j"
+   "text": "ひと吸いで甘くとろける。 濃密な時間を思いのままに🫧 MyMoods VAPE『PEACH』は、完熟した桃の味わいと香りを心ゆくまで楽しめる濃厚なフレーバー。 リアル感たっぷりの味わいで、まるでご褒美デザートのような感覚で楽しめます🍑🍨 -------------- https://t.co/Ht7nC59bpi"
   },
   {
    "account": "Cross_Vape",
-   "id": "2112151790410203335",
-   "created_at": "2026-10-19T12:00:03.000Z",
-   "impressions": 396,
-   "reposts": 4,
+   "id": "2112514280205791544",
+   "created_at": "2026-10-20T12:00:27.000Z",
+   "impressions": 497,
+   "reposts": 7,
    "quotes": 0,
-   "likes": 10,
+   "likes": 14,
    "replies": 0,
    "images": 1,
    "is_quote": 0,
-   "text": "【CrossVape 在庫一斉SALE】🔥 人気モデルのセール情報を公開中！ ATVS AL SAHIM 8,000円 → 7,000円 FIZZY Smart 150K 7,500円 → 6,500円 FIZZY Twins 50K 5,500円 → 5,000円 ▼詳細はこちら https://t.co/AsazIolVWl #ニコパフ #CrossVape https://t.co/1oEk"
+   "text": "【ニコチンフリー商品情報】✨ FIZZY Smart 4,980円 → 4,000円 FIZZY Twins 3,980円 → 3,500円 クーポンコード 【ニコチンフリー】 対象商品・適用条件はこちら👇 https://t.co/AsazIolVWl #ニコチンフリー #FIZZY https://t.co/r4QWPvu8U7"
   },
   {
    "account": "Cross_Vape",
-   "id": "2112086881089560603",
-   "created_at": "2026-10-19T07:42:07.000Z",
-   "impressions": 353,
+   "id": "2112482726217646459",
+   "created_at": "2026-10-20T09:55:04.000Z",
+   "impressions": 557,
    "reposts": 1,
    "quotes": 0,
-   "likes": 7,
+   "likes": 10,
    "replies": 0,
    "images": 0,
    "is_quote": 0,
-   "text": "【ニコチンフリー】FIZZY SMART セール中 通常4,980円 → 4,000円 ニコチン0のVAPE。1台で15種類のフレーバー。 ※このアカウントは20歳以上の方に向けたものです。 #ニコチンフリー #VAPE"
+   "text": "電池の製品の火事は、全国で1年に1,297件（2025年）。モバイルバッテリーでは「落とす・ぶつける」が原因のいちばん。 VAPE も電池の製品。落とさない・高温の場所に置かない。 （消防庁 2026年3月公表） ※このアカウントは20歳以上の方に向けたものです。"
   }
  ],
- "rivals_total": 293,
+ "rivals_total": 296,
  "rivals_median": {
-  "mymoods_vape": 480,
+  "mymoods_vape": 460,
+  "vapepenzonejp": 790,
   "nicohub_japan": 1586,
   "nicopuff_pr": 818,
-  "vapepenzonejp": 790,
-  "Cross_Vape": 303
+  "Cross_Vape": 306
  }
 }
