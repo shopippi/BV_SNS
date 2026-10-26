@@ -1,14 +1,26 @@
 {
- "fetched_at": "2026-10-25T14:23:24+09:00",
- "followers": 526,
+ "fetched_at": "2026-10-26T14:27:29+09:00",
+ "followers": 532,
  "posts": [
+  {
+   "id": "2114355977583763847",
+   "created_at": "2026-10-25T13:58:42.000Z",
+   "impressions": 442,
+   "reposts": 7,
+   "quotes": 1,
+   "likes": 8,
+   "replies": 0,
+   "bookmarks": 0,
+   "images": 0,
+   "text": "本日で締め切りです📢 https://t.co/lt5bqYJnVs"
+  },
   {
    "id": "2113827942673572024",
    "created_at": "2026-10-24T03:00:29.000Z",
-   "impressions": 749,
-   "reposts": 15,
+   "impressions": 852,
+   "reposts": 16,
    "quotes": 0,
-   "likes": 19,
+   "likes": 21,
    "replies": 1,
    "bookmarks": 0,
    "images": 0,
@@ -17,7 +29,7 @@
   {
    "id": "2113074702034125266",
    "created_at": "2026-10-22T01:07:22.000Z",
-   "impressions": 160,
+   "impressions": 180,
    "reposts": 2,
    "quotes": 0,
    "likes": 2,
@@ -29,7 +41,7 @@
   {
    "id": "2113073107942756454",
    "created_at": "2026-10-22T01:01:02.000Z",
-   "impressions": 218,
+   "impressions": 228,
    "reposts": 1,
    "quotes": 0,
    "likes": 1,
@@ -41,7 +53,7 @@
   {
    "id": "2112882766304129286",
    "created_at": "2026-10-21T12:24:41.000Z",
-   "impressions": 230,
+   "impressions": 234,
    "reposts": 1,
    "quotes": 0,
    "likes": 2,
@@ -53,7 +65,7 @@
   {
    "id": "2112787054501503029",
    "created_at": "2026-10-21T06:04:22.000Z",
-   "impressions": 680,
+   "impressions": 709,
    "reposts": 15,
    "quotes": 0,
    "likes": 20,
@@ -65,7 +77,7 @@
   {
    "id": "2112280748317376753",
    "created_at": "2026-10-19T20:32:29.000Z",
-   "impressions": 447,
+   "impressions": 473,
    "reposts": 2,
    "quotes": 0,
    "likes": 3,
@@ -77,7 +89,7 @@
   {
    "id": "2111770759689564374",
    "created_at": "2026-10-18T10:45:58.000Z",
-   "impressions": 349,
+   "impressions": 351,
    "reposts": 5,
    "quotes": 1,
    "likes": 9,
@@ -85,54 +97,42 @@
    "bookmarks": 0,
    "images": 0,
    "text": "もうすぐ〆切です😎✨ https://t.co/dGBiNmCmg7"
-  },
-  {
-   "id": "2111323656886554989",
-   "created_at": "2026-10-17T05:09:20.000Z",
-   "impressions": 207,
-   "reposts": 1,
-   "quotes": 0,
-   "likes": 2,
-   "replies": 0,
-   "bookmarks": 0,
-   "images": 0,
-   "text": "📢 明日まで ！ まだの人は急げ💨 https://t.co/dGBiNmCmg7"
   }
  ],
  "rivals_new": [
   {
    "account": "mymoods_vape",
-   "id": "2113948632391237795",
-   "created_at": "2026-10-24T11:00:03.000Z",
-   "impressions": 265,
+   "id": "2114311014338404471",
+   "created_at": "2026-10-25T11:00:02.000Z",
+   "impressions": 215,
    "reposts": 0,
    "quotes": 0,
    "likes": 0,
    "replies": 0,
-   "images": 4,
-   "is_quote": 0,
-   "text": "◤￣￣￣￣￣￣￣￣￣￣￣￣ 大変お待たせいたしました🫧 ノンニコチン在庫復活🎁 ＿＿＿＿＿＿＿＿＿＿＿＿◢ 大人気の『FUJI DUO ICE』『LEMON COKE』『GRAPE』など、気分やシーンを彩る味や香りが再入荷。 深まる秋、ベイプ・ポケットシーシャで、賢くスマートなひとときを。 https://t.co/UQeHw5kJxa"
+   "images": 0,
+   "is_quote": 1,
+   "text": "ノンニコチン在庫復活✌ MyMoods VAPEを毎月お得に楽しめる、サブスクリプションプランも好評稼働中🌟 あなただけのMyMoods POD BOXを、多数のフレーバー・4つのプランからライフスタイルに合わせてお届けします📦 ・手間なく便利な、毎月自動お届け🚢 ・吸いたいフレーバーは毎月自由に変更可能🫧 https://t.co/m0DlcSBLvU"
   },
   {
    "account": "Cross_Vape",
-   "id": "2113988593836261415",
-   "created_at": "2026-10-24T13:38:51.000Z",
-   "impressions": 429,
-   "reposts": 2,
+   "id": "2114355831445528633",
+   "created_at": "2026-10-25T13:58:07.000Z",
+   "impressions": 259,
+   "reposts": 1,
    "quotes": 0,
-   "likes": 12,
+   "likes": 3,
    "replies": 0,
    "images": 0,
    "is_quote": 0,
-   "text": "そろそろ寒くなってきましたね。 VAPE をカイロや暖房のそばで温めるのは、やめておきましょう。中の電池は熱に弱いんです。（消費者庁） ※このアカウントは20歳以上の方に向けたものです。 #VAPE"
+   "text": "【ニコチンフリー】Fizzy Twins 1台で2つの味。吸い口をスライドするだけで切り替えられます。ニコチンは0mg。 セールで3,500円です（通常3,980円）。 ※このアカウントは20歳以上の方に向けたものです。 #ニコチンフリー"
   }
  ],
- "rivals_total": 305,
+ "rivals_total": 307,
  "rivals_median": {
-  "vapepenzonejp": 790,
-  "Cross_Vape": 304,
   "nicopuff_pr": 818,
-  "mymoods_vape": 416,
-  "nicohub_japan": 1586
+  "nicohub_japan": 1586,
+  "vapepenzonejp": 790,
+  "Cross_Vape": 303,
+  "mymoods_vape": 407
  }
 }
