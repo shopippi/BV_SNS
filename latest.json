@@ -1,11 +1,11 @@
 {
- "fetched_at": "2026-10-28T15:22:06+09:00",
- "followers": 533,
+ "fetched_at": "2026-10-29T15:32:44+09:00",
+ "followers": 532,
  "posts": [
   {
    "id": "2115299039520739555",
    "created_at": "2026-10-28T04:26:06.000Z",
-   "impressions": 62,
+   "impressions": 145,
    "reposts": 1,
    "quotes": 0,
    "likes": 1,
@@ -17,7 +17,7 @@
   {
    "id": "2114982041494356159",
    "created_at": "2026-10-27T07:26:27.000Z",
-   "impressions": 235,
+   "impressions": 266,
    "reposts": 3,
    "quotes": 0,
    "likes": 7,
@@ -29,7 +29,7 @@
   {
    "id": "2114607255123554306",
    "created_at": "2026-10-26T06:37:11.000Z",
-   "impressions": 472,
+   "impressions": 491,
    "reposts": 4,
    "quotes": 1,
    "likes": 7,
@@ -41,7 +41,7 @@
   {
    "id": "2114355977583763847",
    "created_at": "2026-10-25T13:58:42.000Z",
-   "impressions": 602,
+   "impressions": 616,
    "reposts": 7,
    "quotes": 1,
    "likes": 9,
@@ -53,7 +53,7 @@
   {
    "id": "2113827942673572024",
    "created_at": "2026-10-24T03:00:29.000Z",
-   "impressions": 977,
+   "impressions": 996,
    "reposts": 16,
    "quotes": 0,
    "likes": 22,
@@ -65,7 +65,7 @@
   {
    "id": "2113074702034125266",
    "created_at": "2026-10-22T01:07:22.000Z",
-   "impressions": 209,
+   "impressions": 216,
    "reposts": 2,
    "quotes": 0,
    "likes": 2,
@@ -77,7 +77,7 @@
   {
    "id": "2113073107942756454",
    "created_at": "2026-10-22T01:01:02.000Z",
-   "impressions": 246,
+   "impressions": 249,
    "reposts": 1,
    "quotes": 0,
    "likes": 1,
@@ -89,10 +89,10 @@
   {
    "id": "2112882766304129286",
    "created_at": "2026-10-21T12:24:41.000Z",
-   "impressions": 253,
+   "impressions": 257,
    "reposts": 1,
    "quotes": 0,
-   "likes": 2,
+   "likes": 3,
    "replies": 0,
    "bookmarks": 0,
    "images": 0,
@@ -102,37 +102,37 @@
  "rivals_new": [
   {
    "account": "mymoods_vape",
-   "id": "2115035785556541483",
-   "created_at": "2026-10-27T11:00:01.000Z",
-   "impressions": 199,
+   "id": "2115398178363294028",
+   "created_at": "2026-10-28T11:00:02.000Z",
+   "impressions": 208,
    "reposts": 0,
    "quotes": 0,
-   "likes": 0,
+   "likes": 2,
    "replies": 0,
-   "images": 1,
+   "images": 4,
    "is_quote": 0,
-   "text": "ポケットやカバンに忍ばせて、好きな時にいつでも吸うことができるのが持ち運びシーシャ・POD型ベイプの魅力。 シーンを問わない、あなたの気分をデザインする、MyMoods VAPE。 https://t.co/A3jtcXHJV0"
+   "text": "／ 自由にフレーバーを選べる☀️ POD3・6・8・10点セット💨 ＼ それぞれ単体で買うよりも圧倒的におトク！ いろいろなフレーバーを試して、まだ見ぬ気分に出会おう。 それぞれのセット毎の詳細は、プロフィールのリンクよりMyMoods公式サイトをチェック！ -------------- https://t.co/Gy7J858k6Y"
   },
   {
    "account": "Cross_Vape",
-   "id": "2115104792108544305",
-   "created_at": "2026-10-27T15:34:13.000Z",
-   "impressions": 341,
-   "reposts": 1,
+   "id": "2115478256342151664",
+   "created_at": "2026-10-28T16:18:14.000Z",
+   "impressions": 369,
+   "reposts": 2,
    "quotes": 0,
-   "likes": 9,
+   "likes": 11,
    "replies": 0,
    "images": 0,
    "is_quote": 0,
-   "text": "15種類も味があると、正直どれから試すか迷います。 FIZZY SMART は、ボタンひとつで味を切りかえられるニコチンフリーモデル。いまセールで4,000円（通常4,980円）です。 みなさんなら、どの味から試しますか？ ※このアカウントは20歳以上の方に向けたものです。 #ニコチンフリー #VAPE"
+   "text": "使い終わったVAPE、なんとなくふつうのごみに入れていませんか？ 中には電池が入っています。分解はしないで、住んでいる地域の分け方で出してくださいね。収集車の火事のもとになることもあるそうです（環境省）。 ※このアカウントは20歳以上の方に向けたものです。 #VAPE"
   }
  ],
- "rivals_total": 312,
+ "rivals_total": 314,
  "rivals_median": {
-  "vapepenzonejp": 790,
-  "Cross_Vape": 309,
+  "nicohub_japan": 1586,
   "nicopuff_pr": 818,
-  "mymoods_vape": 396,
-  "nicohub_japan": 1586
+  "vapepenzonejp": 790,
+  "Cross_Vape": 313,
+  "mymoods_vape": 369
  }
 }
