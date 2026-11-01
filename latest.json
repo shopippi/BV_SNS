@@ -1,14 +1,26 @@
 {
- "fetched_at": "2026-10-31T15:21:54+09:00",
- "followers": 534,
+ "fetched_at": "2026-11-01T15:54:51+09:00",
+ "followers": 535,
  "posts": [
+  {
+   "id": "2116722216339722265",
+   "created_at": "2026-11-01T02:41:17.000Z",
+   "impressions": 33,
+   "reposts": 0,
+   "quotes": 0,
+   "likes": 0,
+   "replies": 0,
+   "bookmarks": 0,
+   "images": 1,
+   "text": "【レビュー】 VAPORESSO X DOJO IMate OS を徹底検証 ✔︎ https://t.co/8Ntew6kY0L"
+  },
   {
    "id": "2116337009216413774",
    "created_at": "2026-10-31T01:10:37.000Z",
-   "impressions": 89,
-   "reposts": 2,
+   "impressions": 193,
+   "reposts": 3,
    "quotes": 0,
-   "likes": 4,
+   "likes": 6,
    "replies": 0,
    "bookmarks": 0,
    "images": 0,
@@ -17,7 +29,7 @@
   {
    "id": "2116030522472448166",
    "created_at": "2026-10-30T04:52:45.000Z",
-   "impressions": 141,
+   "impressions": 175,
    "reposts": 0,
    "quotes": 0,
    "likes": 0,
@@ -29,7 +41,7 @@
   {
    "id": "2115732124762542551",
    "created_at": "2026-10-29T09:07:01.000Z",
-   "impressions": 188,
+   "impressions": 196,
    "reposts": 1,
    "quotes": 0,
    "likes": 2,
@@ -41,10 +53,10 @@
   {
    "id": "2115299039520739555",
    "created_at": "2026-10-28T04:26:06.000Z",
-   "impressions": 260,
+   "impressions": 277,
    "reposts": 1,
    "quotes": 0,
-   "likes": 2,
+   "likes": 1,
    "replies": 0,
    "bookmarks": 1,
    "images": 1,
@@ -53,7 +65,7 @@
   {
    "id": "2114982041494356159",
    "created_at": "2026-10-27T07:26:27.000Z",
-   "impressions": 313,
+   "impressions": 323,
    "reposts": 3,
    "quotes": 0,
    "likes": 7,
@@ -65,7 +77,7 @@
   {
    "id": "2114607255123554306",
    "created_at": "2026-10-26T06:37:11.000Z",
-   "impressions": 549,
+   "impressions": 564,
    "reposts": 5,
    "quotes": 1,
    "likes": 7,
@@ -77,7 +89,7 @@
   {
    "id": "2114355977583763847",
    "created_at": "2026-10-25T13:58:42.000Z",
-   "impressions": 642,
+   "impressions": 646,
    "reposts": 7,
    "quotes": 1,
    "likes": 9,
@@ -85,80 +97,42 @@
    "bookmarks": 0,
    "images": 0,
    "text": "本日で締め切りです📢 https://t.co/lt5bqYJnVs"
-  },
-  {
-   "id": "2113827942673572024",
-   "created_at": "2026-10-24T03:00:29.000Z",
-   "impressions": 1064,
-   "reposts": 16,
-   "quotes": 0,
-   "likes": 22,
-   "replies": 1,
-   "bookmarks": 0,
-   "images": 0,
-   "text": "プレゼント企画、締切は明日 📢10/25(日)23:59 です🎁 Lana Pen Plus 9K を2名様に。 応募は @BANDVAPE_フォロー 企画投稿へのいいね・リポストで完了です。 当選した方にはDMでご連絡します。 ※20歳以上限定。賞品はクーポンでのお渡し／当選者ご本人名義の個人輸入で配送します。 #ニコパフ https://t.co/lt5bqYJnVs"
   }
  ],
  "rivals_new": [
   {
    "account": "mymoods_vape",
-   "id": "2116122959798518201",
-   "created_at": "2026-10-30T11:00:03.000Z",
-   "impressions": 178,
+   "id": "2116485333047271612",
+   "created_at": "2026-10-31T11:00:00.000Z",
+   "impressions": 210,
    "reposts": 0,
    "quotes": 0,
    "likes": 0,
    "replies": 0,
-   "images": 2,
-   "is_quote": 0,
-   "text": ".𖥔 ݁ ˖ ✦ ‧₊˚ ⋅.𖥔.𖥔 ݁ ˖ ✦ .𖥔 kaneee×MyMoods 500本限定・コラボデバイス 好評発売中⚡🔵 .𖥔 ݁ ˖ ✦ ‧₊˚ ⋅.𖥔.𖥔 ݁ ˖ ✦ .𖥔 唯一無二のフロウと存在感で注目を集めるラッパー・kaneeeと、日本発ベイプブランド•MyMoodsがコラボ。 https://t.co/mgYqbQJAHA"
-  },
-  {
-   "account": "mymoods_vape",
-   "id": "2116088447786221945",
-   "created_at": "2026-10-30T08:42:55.000Z",
-   "impressions": 212,
-   "reposts": 0,
-   "quotes": 0,
-   "likes": 2,
-   "replies": 0,
    "images": 1,
    "is_quote": 0,
-   "text": "Pop-up store report 🎥 Block Party_2026.10.24 (sat) FORCE festival_2026.10.25 (sun) Sponsored by MyMoods. #mymoods #vape #forcefestival #blockparty https://t.co/Q9vkzNUV50"
+   "text": "🎃🎃HAPPY HALLOWEEN🎃🎃 ひとりでも、みんなでも。 このハロウィンの夜を彩るような香りと味わいを、MyMoods VAPEで。 -------------- ※20歳未満のベイプ、ニコパフの購入・使用はできません。 https://t.co/usQXaEOW3p"
   },
   {
    "account": "Cross_Vape",
-   "id": "2116202709149704584",
-   "created_at": "2026-10-30T16:16:57.000Z",
-   "impressions": 358,
+   "id": "2116553619658908004",
+   "created_at": "2026-10-31T15:31:21.000Z",
+   "impressions": 414,
    "reposts": 1,
    "quotes": 0,
-   "likes": 8,
+   "likes": 9,
    "replies": 0,
    "images": 0,
    "is_quote": 0,
-   "text": "VAPEを落としたとき、見た目がなんともないとホッとしますよね。 でも、あとから熱くなる・ふくらむ・変なにおいがすることもあるそうです（消費者庁）。ちょっとでもおかしいと思ったら、使うのをやめてください。 ※このアカウントは20歳以上の方に向けたものです。 #VAPE"
-  },
-  {
-   "account": "Cross_Vape",
-   "id": "2116138310943031503",
-   "created_at": "2026-10-30T12:01:03.000Z",
-   "impressions": 496,
-   "reposts": 5,
-   "quotes": 0,
-   "likes": 14,
-   "replies": 0,
-   "images": 1,
-   "is_quote": 0,
-   "text": "【ATVS AL SAHIM】📢 200Kモデル・大容量60ml仕様。 掲載価格 7,000円 商品仕様や取り扱いフレーバーの詳細はこちら。 https://t.co/AsazIolVWl #ATVS #CrossVape https://t.co/Wq4hKZmvDx"
+   "text": "ペットと暮らしている方へ。 VAPEをかじられると、中の電池がこわれて熱くなったり火が出たりすることがあるそうです（電池工業会）。置きっぱなしにしないのがいちばん。電子レンジやIHの上に置くのもやめておきましょう。 ※このアカウントは20歳以上の方に向けたものです。 #VAPE"
   }
  ],
- "rivals_total": 320,
+ "rivals_total": 322,
  "rivals_median": {
-  "mymoods_vape": 342,
-  "nicopuff_pr": 818,
-  "vapepenzonejp": 790,
   "Cross_Vape": 341,
-  "nicohub_japan": 1586
+  "mymoods_vape": 336,
+  "vapepenzonejp": 790,
+  "nicohub_japan": 1586,
+  "nicopuff_pr": 818
  }
 }
