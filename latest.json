@@ -1,11 +1,11 @@
 {
- "fetched_at": "2026-11-07T15:38:53+09:00",
+ "fetched_at": "2026-11-08T15:45:17+09:00",
  "followers": 535,
  "posts": [
   {
    "id": "2118902133001179423",
    "created_at": "2026-11-07T03:03:30.000Z",
-   "impressions": 78,
+   "impressions": 155,
    "reposts": 1,
    "quotes": 0,
    "likes": 2,
@@ -17,10 +17,10 @@
   {
    "id": "2118757259555873266",
    "created_at": "2026-11-06T17:27:49.000Z",
-   "impressions": 70,
-   "reposts": 1,
+   "impressions": 152,
+   "reposts": 2,
    "quotes": 0,
-   "likes": 2,
+   "likes": 3,
    "replies": 0,
    "bookmarks": 0,
    "images": 0,
@@ -29,7 +29,7 @@
   {
    "id": "2118534315407724839",
    "created_at": "2026-11-06T02:41:55.000Z",
-   "impressions": 152,
+   "impressions": 192,
    "reposts": 1,
    "quotes": 0,
    "likes": 5,
@@ -41,7 +41,7 @@
   {
    "id": "2118308170414317933",
    "created_at": "2026-11-05T11:43:18.000Z",
-   "impressions": 244,
+   "impressions": 276,
    "reposts": 1,
    "quotes": 0,
    "likes": 7,
@@ -53,7 +53,7 @@
   {
    "id": "2117881385562317176",
    "created_at": "2026-11-04T07:27:25.000Z",
-   "impressions": 212,
+   "impressions": 225,
    "reposts": 1,
    "quotes": 0,
    "likes": 2,
@@ -65,7 +65,7 @@
   {
    "id": "2117076328881270802",
    "created_at": "2026-11-02T02:08:24.000Z",
-   "impressions": 104,
+   "impressions": 114,
    "reposts": 0,
    "quotes": 0,
    "likes": 1,
@@ -77,7 +77,7 @@
   {
    "id": "2116906756324655483",
    "created_at": "2026-11-01T14:54:35.000Z",
-   "impressions": 224,
+   "impressions": 234,
    "reposts": 1,
    "quotes": 0,
    "likes": 4,
@@ -89,7 +89,7 @@
   {
    "id": "2116722216339722265",
    "created_at": "2026-11-01T02:41:17.000Z",
-   "impressions": 226,
+   "impressions": 239,
    "reposts": 1,
    "quotes": 0,
    "likes": 5,
@@ -102,24 +102,24 @@
  "rivals_new": [
   {
    "account": "Cross_Vape",
-   "id": "2118749624097763513",
-   "created_at": "2026-11-06T16:57:29.000Z",
-   "impressions": 234,
-   "reposts": 1,
+   "id": "2119096609996718481",
+   "created_at": "2026-11-07T15:56:17.000Z",
+   "impressions": 326,
+   "reposts": 2,
    "quotes": 0,
-   "likes": 5,
+   "likes": 12,
    "replies": 0,
    "images": 0,
    "is_quote": 0,
-   "text": "カバンにVAPEを入れっぱなし、ありがちですよね。 かばんや布の中は熱がこもりやすいそうです（消費者庁）。充電が遅くなった、変な音がする、液がもれているなど、いつもとちがうと感じたら使うのをやめてください。 ※このアカウントは20歳以上の方に向けたものです。 #VAPE"
+   "text": "たばこを吸えない場所では、VAPEも使わないようにしています。 人のいるほうに吐かない、歩きながら使わない。小さなことだけど、まわりに気を配りながら楽しみたいなと思っています。 ※このアカウントは20歳以上の方に向けたものです。 #VAPE"
   }
  ],
- "rivals_total": 336,
+ "rivals_total": 337,
  "rivals_median": {
-  "Cross_Vape": 339,
   "mymoods_vape": 342,
-  "nicohub_japan": 1586,
+  "Cross_Vape": 332,
+  "nicopuff_pr": 818,
   "vapepenzonejp": 790,
-  "nicopuff_pr": 818
+  "nicohub_japan": 1586
  }
 }
