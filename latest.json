@@ -1,11 +1,23 @@
 {
- "fetched_at": "2026-11-08T15:45:17+09:00",
- "followers": 535,
+ "fetched_at": "2026-11-09T16:15:50+09:00",
+ "followers": 538,
  "posts": [
+  {
+   "id": "2119322353251581976",
+   "created_at": "2026-11-08T06:53:18.000Z",
+   "impressions": 106,
+   "reposts": 1,
+   "quotes": 0,
+   "likes": 2,
+   "replies": 0,
+   "bookmarks": 0,
+   "images": 0,
+   "text": "レビューありがとうございます🙇‍♀️ ぜひ他のフレーバーも試してみて下さい✨ https://t.co/pjm32p3sph"
+  },
   {
    "id": "2118902133001179423",
    "created_at": "2026-11-07T03:03:30.000Z",
-   "impressions": 155,
+   "impressions": 181,
    "reposts": 1,
    "quotes": 0,
    "likes": 2,
@@ -17,7 +29,7 @@
   {
    "id": "2118757259555873266",
    "created_at": "2026-11-06T17:27:49.000Z",
-   "impressions": 152,
+   "impressions": 181,
    "reposts": 2,
    "quotes": 0,
    "likes": 3,
@@ -29,10 +41,10 @@
   {
    "id": "2118534315407724839",
    "created_at": "2026-11-06T02:41:55.000Z",
-   "impressions": 192,
+   "impressions": 235,
    "reposts": 1,
    "quotes": 0,
-   "likes": 5,
+   "likes": 6,
    "replies": 0,
    "bookmarks": 0,
    "images": 1,
@@ -41,19 +53,19 @@
   {
    "id": "2118308170414317933",
    "created_at": "2026-11-05T11:43:18.000Z",
-   "impressions": 276,
+   "impressions": 314,
    "reposts": 1,
    "quotes": 0,
-   "likes": 7,
+   "likes": 9,
    "replies": 0,
-   "bookmarks": 0,
+   "bookmarks": 1,
    "images": 1,
    "text": "𝐌𝐀𝐓𝐂𝐇𝐀 𝐋𝐀𝐓𝐓𝐄 ✔︎Marbo Bar | 10K 抹茶の深いコクと、ミルクのまろやかな甘さが重なる、濃厚でクリーミーな味わい。 寒くなってきた今、選びたい一本。 #ニコパフ #nicopuff #ベイプ https://t.co/c2s5FJe84z"
   },
   {
    "id": "2117881385562317176",
    "created_at": "2026-11-04T07:27:25.000Z",
-   "impressions": 225,
+   "impressions": 241,
    "reposts": 1,
    "quotes": 0,
    "likes": 2,
@@ -65,7 +77,7 @@
   {
    "id": "2117076328881270802",
    "created_at": "2026-11-02T02:08:24.000Z",
-   "impressions": 114,
+   "impressions": 123,
    "reposts": 0,
    "quotes": 0,
    "likes": 1,
@@ -77,7 +89,7 @@
   {
    "id": "2116906756324655483",
    "created_at": "2026-11-01T14:54:35.000Z",
-   "impressions": 234,
+   "impressions": 242,
    "reposts": 1,
    "quotes": 0,
    "likes": 4,
@@ -85,41 +97,29 @@
    "bookmarks": 0,
    "images": 0,
    "text": "【記事を公開しました】 【レビュー】Fifty Bar 20K を徹底検証！ https://t.co/EiqilZ7ebx"
-  },
-  {
-   "id": "2116722216339722265",
-   "created_at": "2026-11-01T02:41:17.000Z",
-   "impressions": 239,
-   "reposts": 1,
-   "quotes": 0,
-   "likes": 5,
-   "replies": 1,
-   "bookmarks": 0,
-   "images": 1,
-   "text": "【レビュー】 VAPORESSO X DOJO IMate OS を徹底検証 ✔︎ https://t.co/8Ntew6kY0L"
   }
  ],
  "rivals_new": [
   {
    "account": "Cross_Vape",
-   "id": "2119096609996718481",
-   "created_at": "2026-11-07T15:56:17.000Z",
-   "impressions": 326,
+   "id": "2119465723634307428",
+   "created_at": "2026-11-08T16:23:00.000Z",
+   "impressions": 255,
    "reposts": 2,
    "quotes": 0,
-   "likes": 12,
+   "likes": 9,
    "replies": 0,
    "images": 0,
    "is_quote": 0,
-   "text": "たばこを吸えない場所では、VAPEも使わないようにしています。 人のいるほうに吐かない、歩きながら使わない。小さなことだけど、まわりに気を配りながら楽しみたいなと思っています。 ※このアカウントは20歳以上の方に向けたものです。 #VAPE"
+   "text": "日曜日の夜、いかがお過ごしですか？ このアカウントでは、ニコチンフリーのVAPE（いまは Fizzy Twins 3,500円と FIZZY SMART 4,000円がセール中）と、電池の安全の話をゆるく発信しています。来週もよろしくお願いします。 ※このアカウントは20歳以上の方に向けたものです。 #ニコチンフリー #VAPE"
   }
  ],
- "rivals_total": 337,
+ "rivals_total": 338,
  "rivals_median": {
-  "mymoods_vape": 342,
-  "Cross_Vape": 332,
+  "nicohub_japan": 1586,
   "nicopuff_pr": 818,
   "vapepenzonejp": 790,
-  "nicohub_japan": 1586
+  "Cross_Vape": 326,
+  "mymoods_vape": 342
  }
 }
