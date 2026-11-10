@@ -1,11 +1,23 @@
 {
- "fetched_at": "2026-11-09T16:15:50+09:00",
- "followers": 538,
+ "fetched_at": "2026-11-10T16:48:11+09:00",
+ "followers": 539,
  "posts": [
+  {
+   "id": "2119962792556220692",
+   "created_at": "2026-11-10T01:18:11.000Z",
+   "impressions": 74,
+   "reposts": 0,
+   "quotes": 0,
+   "likes": 0,
+   "replies": 0,
+   "bookmarks": 0,
+   "images": 1,
+   "text": "𝐘𝐄𝐋𝐋𝐎𝐖 𝐌𝐈𝐍𝐓 ✔︎ Marbo Bar | 10K 爽やかなミントに、柑橘のほどよい酸味。 甘さを抑えた、すっきりとした香りを楽しみたい方に。 #韓国ベイプ #vape #韓国ニコパフ https://t.co/zr4ZHUVS11"
+  },
   {
    "id": "2119322353251581976",
    "created_at": "2026-11-08T06:53:18.000Z",
-   "impressions": 106,
+   "impressions": 131,
    "reposts": 1,
    "quotes": 0,
    "likes": 2,
@@ -17,7 +29,7 @@
   {
    "id": "2118902133001179423",
    "created_at": "2026-11-07T03:03:30.000Z",
-   "impressions": 181,
+   "impressions": 192,
    "reposts": 1,
    "quotes": 0,
    "likes": 2,
@@ -29,7 +41,7 @@
   {
    "id": "2118757259555873266",
    "created_at": "2026-11-06T17:27:49.000Z",
-   "impressions": 181,
+   "impressions": 192,
    "reposts": 2,
    "quotes": 0,
    "likes": 3,
@@ -41,7 +53,7 @@
   {
    "id": "2118534315407724839",
    "created_at": "2026-11-06T02:41:55.000Z",
-   "impressions": 235,
+   "impressions": 257,
    "reposts": 1,
    "quotes": 0,
    "likes": 6,
@@ -53,7 +65,7 @@
   {
    "id": "2118308170414317933",
    "created_at": "2026-11-05T11:43:18.000Z",
-   "impressions": 314,
+   "impressions": 332,
    "reposts": 1,
    "quotes": 0,
    "likes": 9,
@@ -65,7 +77,7 @@
   {
    "id": "2117881385562317176",
    "created_at": "2026-11-04T07:27:25.000Z",
-   "impressions": 241,
+   "impressions": 243,
    "reposts": 1,
    "quotes": 0,
    "likes": 2,
@@ -85,41 +97,29 @@
    "bookmarks": 0,
    "images": 0,
    "text": "https://t.co/9eRG61iUv9"
-  },
-  {
-   "id": "2116906756324655483",
-   "created_at": "2026-11-01T14:54:35.000Z",
-   "impressions": 242,
-   "reposts": 1,
-   "quotes": 0,
-   "likes": 4,
-   "replies": 0,
-   "bookmarks": 0,
-   "images": 0,
-   "text": "【記事を公開しました】 【レビュー】Fifty Bar 20K を徹底検証！ https://t.co/EiqilZ7ebx"
   }
  ],
  "rivals_new": [
   {
    "account": "Cross_Vape",
-   "id": "2119465723634307428",
-   "created_at": "2026-11-08T16:23:00.000Z",
-   "impressions": 255,
-   "reposts": 2,
+   "id": "2119885551914348939",
+   "created_at": "2026-11-09T20:11:15.000Z",
+   "impressions": 407,
+   "reposts": 3,
    "quotes": 0,
-   "likes": 9,
+   "likes": 11,
    "replies": 0,
    "images": 0,
    "is_quote": 0,
-   "text": "日曜日の夜、いかがお過ごしですか？ このアカウントでは、ニコチンフリーのVAPE（いまは Fizzy Twins 3,500円と FIZZY SMART 4,000円がセール中）と、電池の安全の話をゆるく発信しています。来週もよろしくお願いします。 ※このアカウントは20歳以上の方に向けたものです。 #ニコチンフリー #VAPE"
+   "text": "月曜日、今週もはじまりましたね。 Fizzy Twins は使い捨てタイプのニコチンフリーモデル（ニコチン0mg）。充電しなくていいので、出かける日も気楽です。いまセールで3,500円（通常3,980円）。 ※このアカウントは20歳以上の方に向けたものです。 #ニコチンフリー"
   }
  ],
- "rivals_total": 338,
+ "rivals_total": 339,
  "rivals_median": {
   "nicohub_japan": 1586,
-  "nicopuff_pr": 818,
   "vapepenzonejp": 790,
-  "Cross_Vape": 326,
-  "mymoods_vape": 342
+  "mymoods_vape": 342,
+  "Cross_Vape": 332,
+  "nicopuff_pr": 818
  }
 }
