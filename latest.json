@@ -1,14 +1,14 @@
 {
- "fetched_at": "2026-11-10T16:48:11+09:00",
+ "fetched_at": "2026-11-11T16:15:38+09:00",
  "followers": 539,
  "posts": [
   {
    "id": "2119962792556220692",
    "created_at": "2026-11-10T01:18:11.000Z",
-   "impressions": 74,
-   "reposts": 0,
+   "impressions": 226,
+   "reposts": 2,
    "quotes": 0,
-   "likes": 0,
+   "likes": 4,
    "replies": 0,
    "bookmarks": 0,
    "images": 1,
@@ -17,7 +17,7 @@
   {
    "id": "2119322353251581976",
    "created_at": "2026-11-08T06:53:18.000Z",
-   "impressions": 131,
+   "impressions": 149,
    "reposts": 1,
    "quotes": 0,
    "likes": 2,
@@ -29,7 +29,7 @@
   {
    "id": "2118902133001179423",
    "created_at": "2026-11-07T03:03:30.000Z",
-   "impressions": 192,
+   "impressions": 208,
    "reposts": 1,
    "quotes": 0,
    "likes": 2,
@@ -41,7 +41,7 @@
   {
    "id": "2118757259555873266",
    "created_at": "2026-11-06T17:27:49.000Z",
-   "impressions": 192,
+   "impressions": 201,
    "reposts": 2,
    "quotes": 0,
    "likes": 3,
@@ -53,7 +53,7 @@
   {
    "id": "2118534315407724839",
    "created_at": "2026-11-06T02:41:55.000Z",
-   "impressions": 257,
+   "impressions": 283,
    "reposts": 1,
    "quotes": 0,
    "likes": 6,
@@ -65,7 +65,7 @@
   {
    "id": "2118308170414317933",
    "created_at": "2026-11-05T11:43:18.000Z",
-   "impressions": 332,
+   "impressions": 347,
    "reposts": 1,
    "quotes": 0,
    "likes": 9,
@@ -77,7 +77,7 @@
   {
    "id": "2117881385562317176",
    "created_at": "2026-11-04T07:27:25.000Z",
-   "impressions": 243,
+   "impressions": 251,
    "reposts": 1,
    "quotes": 0,
    "likes": 2,
@@ -89,7 +89,7 @@
   {
    "id": "2117076328881270802",
    "created_at": "2026-11-02T02:08:24.000Z",
-   "impressions": 123,
+   "impressions": 125,
    "reposts": 0,
    "quotes": 0,
    "likes": 1,
@@ -102,24 +102,24 @@
  "rivals_new": [
   {
    "account": "Cross_Vape",
-   "id": "2119885551914348939",
-   "created_at": "2026-11-09T20:11:15.000Z",
-   "impressions": 407,
-   "reposts": 3,
+   "id": "2120204766730928207",
+   "created_at": "2026-11-10T17:19:42.000Z",
+   "impressions": 530,
+   "reposts": 1,
    "quotes": 0,
    "likes": 11,
-   "replies": 0,
+   "replies": 1,
    "images": 0,
    "is_quote": 0,
-   "text": "月曜日、今週もはじまりましたね。 Fizzy Twins は使い捨てタイプのニコチンフリーモデル（ニコチン0mg）。充電しなくていいので、出かける日も気楽です。いまセールで3,500円（通常3,980円）。 ※このアカウントは20歳以上の方に向けたものです。 #ニコチンフリー"
+   "text": "電車でVAPE、使っていいのか迷ったことはありませんか？ JR西日本は、電子タバコやそれに似たものも、たばこを吸えない所では使わないように、と案内しています。山陽・北陸新幹線は車内どこでも吸えません。乗る前に案内をチェック。 ※このアカウントは20歳以上の方に向けたものです。 #VAPE"
   }
  ],
- "rivals_total": 339,
+ "rivals_total": 340,
  "rivals_median": {
+  "mymoods_vape": 342,
+  "nicopuff_pr": 818,
   "nicohub_japan": 1586,
   "vapepenzonejp": 790,
-  "mymoods_vape": 342,
-  "Cross_Vape": 332,
-  "nicopuff_pr": 818
+  "Cross_Vape": 339
  }
 }
