@@ -1,11 +1,23 @@
 {
- "fetched_at": "2026-11-13T16:24:35+09:00",
+ "fetched_at": "2026-11-14T16:05:31+09:00",
  "followers": 543,
  "posts": [
   {
+   "id": "2121256174863679528",
+   "created_at": "2026-11-13T14:57:37.000Z",
+   "impressions": 75,
+   "reposts": 3,
+   "quotes": 0,
+   "likes": 2,
+   "replies": 0,
+   "bookmarks": 0,
+   "images": 1,
+   "text": "グレープのファンは多い🤔🍇 自分もついグレープに手が伸びます🖐️ https://t.co/dUIyNzbZdB"
+  },
+  {
    "id": "2120886110163456183",
    "created_at": "2026-11-12T14:27:07.000Z",
-   "impressions": 99,
+   "impressions": 153,
    "reposts": 1,
    "quotes": 0,
    "likes": 1,
@@ -17,7 +29,7 @@
   {
    "id": "2120436081997058064",
    "created_at": "2026-11-11T08:38:52.000Z",
-   "impressions": 319,
+   "impressions": 364,
    "reposts": 1,
    "quotes": 0,
    "likes": 5,
@@ -29,7 +41,7 @@
   {
    "id": "2119962792556220692",
    "created_at": "2026-11-10T01:18:11.000Z",
-   "impressions": 361,
+   "impressions": 390,
    "reposts": 2,
    "quotes": 0,
    "likes": 5,
@@ -41,7 +53,7 @@
   {
    "id": "2119322353251581976",
    "created_at": "2026-11-08T06:53:18.000Z",
-   "impressions": 187,
+   "impressions": 202,
    "reposts": 1,
    "quotes": 0,
    "likes": 2,
@@ -53,7 +65,7 @@
   {
    "id": "2118902133001179423",
    "created_at": "2026-11-07T03:03:30.000Z",
-   "impressions": 241,
+   "impressions": 250,
    "reposts": 1,
    "quotes": 0,
    "likes": 2,
@@ -65,7 +77,7 @@
   {
    "id": "2118757259555873266",
    "created_at": "2026-11-06T17:27:49.000Z",
-   "impressions": 226,
+   "impressions": 236,
    "reposts": 2,
    "quotes": 0,
    "likes": 3,
@@ -77,7 +89,7 @@
   {
    "id": "2118534315407724839",
    "created_at": "2026-11-06T02:41:55.000Z",
-   "impressions": 327,
+   "impressions": 337,
    "reposts": 1,
    "quotes": 0,
    "likes": 6,
@@ -85,41 +97,29 @@
    "bookmarks": 0,
    "images": 1,
    "text": "𝐀𝐋𝐋 𝐁𝐄𝐑𝐑𝐘 ✔︎ Marbo Bar | 10K 芳醇なベリーの香りと、上品な甘酸っぱさ。 甘さだけでなく、ほどよい酸味も楽しみたい方に。 #ベイプ #vape https://t.co/THNeXzGotl"
-  },
-  {
-   "id": "2118308170414317933",
-   "created_at": "2026-11-05T11:43:18.000Z",
-   "impressions": 382,
-   "reposts": 1,
-   "quotes": 0,
-   "likes": 9,
-   "replies": 0,
-   "bookmarks": 1,
-   "images": 1,
-   "text": "𝐌𝐀𝐓𝐂𝐇𝐀 𝐋𝐀𝐓𝐓𝐄 ✔︎Marbo Bar | 10K 抹茶の深いコクと、ミルクのまろやかな甘さが重なる、濃厚でクリーミーな味わい。 寒くなってきた今、選びたい一本。 #ニコパフ #nicopuff #ベイプ https://t.co/c2s5FJe84z"
   }
  ],
  "rivals_new": [
   {
    "account": "Cross_Vape",
-   "id": "2120936074008555761",
-   "created_at": "2026-11-12T17:45:39.000Z",
-   "impressions": 307,
+   "id": "2121293022227042751",
+   "created_at": "2026-11-13T17:24:02.000Z",
+   "impressions": 241,
    "reposts": 2,
    "quotes": 0,
-   "likes": 9,
+   "likes": 7,
    "replies": 0,
    "images": 0,
    "is_quote": 0,
-   "text": "もしVAPEから煙や火が出たら、どうしますか？ まずは近寄らず、火花がおさまるのを待つ。小さなものなら、消火器か大量の水で消して、水につけたまま通報。むずかしいと感じたら、無理せず119番です（NITE）。 ※このアカウントは20歳以上の方に向けたものです。 #VAPE"
+   "text": "使い捨て派ですか？充電派ですか？ ニコチンフリーの2モデルなら、使い捨ての Fizzy Twins が3,500円、充電できる FIZZY SMART が4,000円。どちらもいまセール中です（通常3,980円・4,980円）。 ※このアカウントは20歳以上の方に向けたものです。 #ニコチンフリー"
   }
  ],
- "rivals_total": 343,
+ "rivals_total": 344,
  "rivals_median": {
   "mymoods_vape": 342,
+  "nicopuff_pr": 818,
   "vapepenzonejp": 790,
-  "Cross_Vape": 325,
-  "nicohub_japan": 1586,
-  "nicopuff_pr": 818
+  "Cross_Vape": 324,
+  "nicohub_japan": 1586
  }
 }
