@@ -1,11 +1,11 @@
 {
- "fetched_at": "2026-11-14T16:05:31+09:00",
- "followers": 543,
+ "fetched_at": "2026-11-15T16:16:11+09:00",
+ "followers": 541,
  "posts": [
   {
    "id": "2121256174863679528",
    "created_at": "2026-11-13T14:57:37.000Z",
-   "impressions": 75,
+   "impressions": 104,
    "reposts": 3,
    "quotes": 0,
    "likes": 2,
@@ -17,7 +17,7 @@
   {
    "id": "2120886110163456183",
    "created_at": "2026-11-12T14:27:07.000Z",
-   "impressions": 153,
+   "impressions": 180,
    "reposts": 1,
    "quotes": 0,
    "likes": 1,
@@ -29,7 +29,7 @@
   {
    "id": "2120436081997058064",
    "created_at": "2026-11-11T08:38:52.000Z",
-   "impressions": 364,
+   "impressions": 393,
    "reposts": 1,
    "quotes": 0,
    "likes": 5,
@@ -41,7 +41,7 @@
   {
    "id": "2119962792556220692",
    "created_at": "2026-11-10T01:18:11.000Z",
-   "impressions": 390,
+   "impressions": 417,
    "reposts": 2,
    "quotes": 0,
    "likes": 5,
@@ -53,7 +53,7 @@
   {
    "id": "2119322353251581976",
    "created_at": "2026-11-08T06:53:18.000Z",
-   "impressions": 202,
+   "impressions": 211,
    "reposts": 1,
    "quotes": 0,
    "likes": 2,
@@ -65,7 +65,7 @@
   {
    "id": "2118902133001179423",
    "created_at": "2026-11-07T03:03:30.000Z",
-   "impressions": 250,
+   "impressions": 260,
    "reposts": 1,
    "quotes": 0,
    "likes": 2,
@@ -77,7 +77,7 @@
   {
    "id": "2118757259555873266",
    "created_at": "2026-11-06T17:27:49.000Z",
-   "impressions": 236,
+   "impressions": 245,
    "reposts": 2,
    "quotes": 0,
    "likes": 3,
@@ -89,7 +89,7 @@
   {
    "id": "2118534315407724839",
    "created_at": "2026-11-06T02:41:55.000Z",
-   "impressions": 337,
+   "impressions": 342,
    "reposts": 1,
    "quotes": 0,
    "likes": 6,
@@ -102,24 +102,24 @@
  "rivals_new": [
   {
    "account": "Cross_Vape",
-   "id": "2121293022227042751",
-   "created_at": "2026-11-13T17:24:02.000Z",
-   "impressions": 241,
-   "reposts": 2,
+   "id": "2121636750053327124",
+   "created_at": "2026-11-14T16:09:53.000Z",
+   "impressions": 219,
+   "reposts": 1,
    "quotes": 0,
-   "likes": 7,
+   "likes": 3,
    "replies": 0,
    "images": 0,
    "is_quote": 0,
-   "text": "使い捨て派ですか？充電派ですか？ ニコチンフリーの2モデルなら、使い捨ての Fizzy Twins が3,500円、充電できる FIZZY SMART が4,000円。どちらもいまセール中です（通常3,980円・4,980円）。 ※このアカウントは20歳以上の方に向けたものです。 #ニコチンフリー"
+   "text": "持っているVAPE、リコールの対象になっていないか調べたことはありますか？ NITE の「SAFE-Lite」や消費者庁のリコール情報サイトで調べられます。対象だったら、不具合がなくても使うのをやめて、買ったお店やメーカーに相談を（NITE）。 ※このアカウントは20歳以上の方に向けたものです。 #VAPE"
   }
  ],
- "rivals_total": 344,
+ "rivals_total": 345,
  "rivals_median": {
-  "mymoods_vape": 342,
-  "nicopuff_pr": 818,
   "vapepenzonejp": 790,
-  "Cross_Vape": 324,
+  "mymoods_vape": 342,
+  "Cross_Vape": 320,
+  "nicopuff_pr": 818,
   "nicohub_japan": 1586
  }
 }
