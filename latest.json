@@ -1,11 +1,23 @@
 {
- "fetched_at": "2026-11-20T16:49:48+09:00",
- "followers": 541,
+ "fetched_at": "2026-11-21T16:45:43+09:00",
+ "followers": 540,
  "posts": [
+  {
+   "id": "2123992497210941600",
+   "created_at": "2026-11-21T04:10:47.000Z",
+   "impressions": 134,
+   "reposts": 1,
+   "quotes": 0,
+   "likes": 4,
+   "replies": 0,
+   "bookmarks": 0,
+   "images": 2,
+   "text": "✔︎Lana Pen Plus 9K ライチ味 花のような香りが、そのまま香る 細身のペン型で、胸ポケットに収まるのも嬉しいポイント😌 https://t.co/yJFNZIqDOQ"
+  },
   {
    "id": "2123599398122983865",
    "created_at": "2026-11-20T02:08:45.000Z",
-   "impressions": 43,
+   "impressions": 72,
    "reposts": 0,
    "quotes": 0,
    "likes": 3,
@@ -17,7 +29,7 @@
   {
    "id": "2123225047339012587",
    "created_at": "2026-11-19T01:21:13.000Z",
-   "impressions": 146,
+   "impressions": 167,
    "reposts": 1,
    "quotes": 0,
    "likes": 4,
@@ -29,7 +41,7 @@
   {
    "id": "2122852912678457476",
    "created_at": "2026-11-18T00:42:29.000Z",
-   "impressions": 137,
+   "impressions": 143,
    "reposts": 0,
    "quotes": 0,
    "likes": 3,
@@ -41,7 +53,7 @@
   {
    "id": "2122181927612694916",
    "created_at": "2026-11-16T04:16:14.000Z",
-   "impressions": 246,
+   "impressions": 257,
    "reposts": 2,
    "quotes": 0,
    "likes": 5,
@@ -53,7 +65,7 @@
   {
    "id": "2121894022642086377",
    "created_at": "2026-11-15T09:12:12.000Z",
-   "impressions": 163,
+   "impressions": 168,
    "reposts": 1,
    "quotes": 0,
    "likes": 0,
@@ -65,7 +77,7 @@
   {
    "id": "2121868016875139506",
    "created_at": "2026-11-15T07:28:52.000Z",
-   "impressions": 360,
+   "impressions": 362,
    "reposts": 6,
    "quotes": 0,
    "likes": 8,
@@ -73,66 +85,29 @@
    "bookmarks": 0,
    "images": 0,
    "text": "パフマにてプレゼント企画始まりました🎁 https://t.co/QMQ89yW2iS"
-  },
-  {
-   "id": "2121256174863679528",
-   "created_at": "2026-11-13T14:57:37.000Z",
-   "impressions": 159,
-   "reposts": 3,
-   "quotes": 0,
-   "likes": 3,
-   "replies": 0,
-   "bookmarks": 0,
-   "images": 1,
-   "text": "グレープのファンは多い🤔🍇 自分もついグレープに手が伸びます🖐️ https://t.co/dUIyNzbZdB"
-  },
-  {
-   "id": "2120886110163456183",
-   "created_at": "2026-11-12T14:27:07.000Z",
-   "impressions": 282,
-   "reposts": 1,
-   "quotes": 0,
-   "likes": 2,
-   "replies": 0,
-   "bookmarks": 0,
-   "images": 1,
-   "text": "人気商品 LANA FIZZ 12K 間も無く入荷予定です📦 #韓国ベイプ #ベイプ #vape https://t.co/p4QEqB3ueP"
   }
  ],
  "rivals_new": [
   {
-   "account": "mymoods_vape",
-   "id": "2123426144292937782",
-   "created_at": "2026-11-19T14:40:18.000Z",
-   "impressions": 447,
-   "reposts": 0,
-   "quotes": 0,
-   "likes": 0,
-   "replies": 0,
-   "images": 0,
-   "is_quote": 1,
-   "text": "👀🔥 https://t.co/AnOA86Mmhh"
-  },
-  {
    "account": "Cross_Vape",
-   "id": "2123487011180872126",
-   "created_at": "2026-11-19T18:42:10.000Z",
-   "impressions": 330,
-   "reposts": 2,
+   "id": "2123839355609309570",
+   "created_at": "2026-11-20T18:02:16.000Z",
+   "impressions": 285,
+   "reposts": 1,
    "quotes": 0,
-   "likes": 11,
+   "likes": 8,
    "replies": 0,
    "images": 0,
    "is_quote": 0,
-   "text": "大掃除のシーズン、引き出しから使わなくなったVAPEが出てきませんか？ 捨てるときは、使い切って電池切れの状態で、分解せずにそのまま。ふくらんでいたら、ほかと分けて市区町村に相談を。分け方は地域ごとに違います（環境省）。 ※このアカウントは20歳以上の方に向けたものです。 #VAPE"
+   "text": "味を選ぶ時間も、ちょっとした楽しみですよね。 ニコチンフリーの FIZZY SMART は、ボタンで味を切りかえて、画面つき。Type-Cで充電してくりかえし使えます。いまセールで4,000円（通常4,980円）です。 ※このアカウントは20歳以上の方に向けたものです。 #ニコチンフリー"
   }
  ],
- "rivals_total": 352,
+ "rivals_total": 353,
  "rivals_median": {
+  "Cross_Vape": 317,
   "vapepenzonejp": 790,
-  "nicohub_japan": 1586,
   "mymoods_vape": 342,
-  "Cross_Vape": 320,
+  "nicohub_japan": 1586,
   "nicopuff_pr": 818
  }
 }
