@@ -1,11 +1,23 @@
 {
- "fetched_at": "2026-11-21T16:45:43+09:00",
- "followers": 540,
+ "fetched_at": "2026-11-22T16:32:33+09:00",
+ "followers": 539,
  "posts": [
+  {
+   "id": "2124344807359439246",
+   "created_at": "2026-11-22T03:30:45.000Z",
+   "impressions": 56,
+   "reposts": 1,
+   "quotes": 0,
+   "likes": 1,
+   "replies": 0,
+   "bookmarks": 0,
+   "images": 1,
+   "text": "🏆Bandvape 週間ランキング TOP5 🏆 https://t.co/f8KfTdvvqW"
+  },
   {
    "id": "2123992497210941600",
    "created_at": "2026-11-21T04:10:47.000Z",
-   "impressions": 134,
+   "impressions": 173,
    "reposts": 1,
    "quotes": 0,
    "likes": 4,
@@ -17,7 +29,7 @@
   {
    "id": "2123599398122983865",
    "created_at": "2026-11-20T02:08:45.000Z",
-   "impressions": 72,
+   "impressions": 82,
    "reposts": 0,
    "quotes": 0,
    "likes": 3,
@@ -29,7 +41,7 @@
   {
    "id": "2123225047339012587",
    "created_at": "2026-11-19T01:21:13.000Z",
-   "impressions": 167,
+   "impressions": 178,
    "reposts": 1,
    "quotes": 0,
    "likes": 4,
@@ -41,7 +53,7 @@
   {
    "id": "2122852912678457476",
    "created_at": "2026-11-18T00:42:29.000Z",
-   "impressions": 143,
+   "impressions": 152,
    "reposts": 0,
    "quotes": 0,
    "likes": 3,
@@ -53,7 +65,7 @@
   {
    "id": "2122181927612694916",
    "created_at": "2026-11-16T04:16:14.000Z",
-   "impressions": 257,
+   "impressions": 266,
    "reposts": 2,
    "quotes": 0,
    "likes": 5,
@@ -65,7 +77,7 @@
   {
    "id": "2121894022642086377",
    "created_at": "2026-11-15T09:12:12.000Z",
-   "impressions": 168,
+   "impressions": 175,
    "reposts": 1,
    "quotes": 0,
    "likes": 0,
@@ -73,41 +85,15 @@
    "bookmarks": 0,
    "images": 1,
    "text": "Marbo bar 10k 人気なのには理由があります。 ✔︎3段階のモード切り替え ✔︎スタイリッシュなデザイン ✔︎Type-C充電 ✔︎圧倒的な吸い心地 是非お試しあれ https://t.co/mw1RS72lwQ"
-  },
-  {
-   "id": "2121868016875139506",
-   "created_at": "2026-11-15T07:28:52.000Z",
-   "impressions": 362,
-   "reposts": 6,
-   "quotes": 0,
-   "likes": 8,
-   "replies": 0,
-   "bookmarks": 0,
-   "images": 0,
-   "text": "パフマにてプレゼント企画始まりました🎁 https://t.co/QMQ89yW2iS"
   }
  ],
- "rivals_new": [
-  {
-   "account": "Cross_Vape",
-   "id": "2123839355609309570",
-   "created_at": "2026-11-20T18:02:16.000Z",
-   "impressions": 285,
-   "reposts": 1,
-   "quotes": 0,
-   "likes": 8,
-   "replies": 0,
-   "images": 0,
-   "is_quote": 0,
-   "text": "味を選ぶ時間も、ちょっとした楽しみですよね。 ニコチンフリーの FIZZY SMART は、ボタンで味を切りかえて、画面つき。Type-Cで充電してくりかえし使えます。いまセールで4,000円（通常4,980円）です。 ※このアカウントは20歳以上の方に向けたものです。 #ニコチンフリー"
-  }
- ],
+ "rivals_new": [],
  "rivals_total": 353,
  "rivals_median": {
-  "Cross_Vape": 317,
   "vapepenzonejp": 790,
-  "mymoods_vape": 342,
+  "Cross_Vape": 317,
   "nicohub_japan": 1586,
-  "nicopuff_pr": 818
+  "nicopuff_pr": 818,
+  "mymoods_vape": 342
  }
 }
