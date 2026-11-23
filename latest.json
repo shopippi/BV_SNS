@@ -1,11 +1,11 @@
 {
- "fetched_at": "2026-11-22T16:32:33+09:00",
- "followers": 539,
+ "fetched_at": "2026-11-23T17:20:01+09:00",
+ "followers": 540,
  "posts": [
   {
    "id": "2124344807359439246",
    "created_at": "2026-11-22T03:30:45.000Z",
-   "impressions": 56,
+   "impressions": 119,
    "reposts": 1,
    "quotes": 0,
    "likes": 1,
@@ -17,7 +17,7 @@
   {
    "id": "2123992497210941600",
    "created_at": "2026-11-21T04:10:47.000Z",
-   "impressions": 173,
+   "impressions": 195,
    "reposts": 1,
    "quotes": 0,
    "likes": 4,
@@ -29,7 +29,7 @@
   {
    "id": "2123599398122983865",
    "created_at": "2026-11-20T02:08:45.000Z",
-   "impressions": 82,
+   "impressions": 99,
    "reposts": 0,
    "quotes": 0,
    "likes": 3,
@@ -41,7 +41,7 @@
   {
    "id": "2123225047339012587",
    "created_at": "2026-11-19T01:21:13.000Z",
-   "impressions": 178,
+   "impressions": 194,
    "reposts": 1,
    "quotes": 0,
    "likes": 4,
@@ -53,7 +53,7 @@
   {
    "id": "2122852912678457476",
    "created_at": "2026-11-18T00:42:29.000Z",
-   "impressions": 152,
+   "impressions": 163,
    "reposts": 0,
    "quotes": 0,
    "likes": 3,
@@ -65,7 +65,7 @@
   {
    "id": "2122181927612694916",
    "created_at": "2026-11-16T04:16:14.000Z",
-   "impressions": 266,
+   "impressions": 275,
    "reposts": 2,
    "quotes": 0,
    "likes": 5,
@@ -77,7 +77,7 @@
   {
    "id": "2121894022642086377",
    "created_at": "2026-11-15T09:12:12.000Z",
-   "impressions": 175,
+   "impressions": 182,
    "reposts": 1,
    "quotes": 0,
    "likes": 0,
@@ -87,13 +87,27 @@
    "text": "Marbo bar 10k 人気なのには理由があります。 ✔︎3段階のモード切り替え ✔︎スタイリッシュなデザイン ✔︎Type-C充電 ✔︎圧倒的な吸い心地 是非お試しあれ https://t.co/mw1RS72lwQ"
   }
  ],
- "rivals_new": [],
- "rivals_total": 353,
+ "rivals_new": [
+  {
+   "account": "Cross_Vape",
+   "id": "2124441515414212799",
+   "created_at": "2026-11-22T09:55:02.000Z",
+   "impressions": 451,
+   "reposts": 3,
+   "quotes": 0,
+   "likes": 13,
+   "replies": 0,
+   "images": 0,
+   "is_quote": 0,
+   "text": "週末のおでかけ、充電のことを考えずに出かけたい日もありますよね。 ニコチン0mgの Fizzy Twins は使い捨てタイプ。吸い口のスライドで2つの味を切りかえます。いまセールで3,500円（通常3,980円）です。 ※このアカウントは20歳以上の方に向けたものです。 #ニコチンフリー"
+  }
+ ],
+ "rivals_total": 354,
  "rivals_median": {
   "vapepenzonejp": 790,
-  "Cross_Vape": 317,
-  "nicohub_japan": 1586,
   "nicopuff_pr": 818,
-  "mymoods_vape": 342
+  "Cross_Vape": 320,
+  "mymoods_vape": 342,
+  "nicohub_japan": 1586
  }
 }
