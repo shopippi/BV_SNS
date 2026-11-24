@@ -1,11 +1,23 @@
 {
- "fetched_at": "2026-11-23T17:20:01+09:00",
+ "fetched_at": "2026-11-24T19:29:04+09:00",
  "followers": 540,
  "posts": [
   {
+   "id": "2124843421198319756",
+   "created_at": "2026-11-23T12:32:03.000Z",
+   "impressions": 294,
+   "reposts": 1,
+   "quotes": 0,
+   "likes": 9,
+   "replies": 0,
+   "bookmarks": 1,
+   "images": 1,
+   "text": "＼甘いのに、後味は軽め。／ LANA PEN PLUS 9K バブルガム味。 ふわっと広がるガムの香りで、仕事終わりにひと息つきたい夜にちょうどいい一本です。 細身のペン型なので、バッグの小さいポケットにもすっと収まります。👜 よく選ばれている定番の味。迷ったらまずはここから。 ⚠️20歳以上の方へ。 https://t.co/bdKkcPsjGl"
+  },
+  {
    "id": "2124344807359439246",
    "created_at": "2026-11-22T03:30:45.000Z",
-   "impressions": 119,
+   "impressions": 141,
    "reposts": 1,
    "quotes": 0,
    "likes": 1,
@@ -17,7 +29,7 @@
   {
    "id": "2123992497210941600",
    "created_at": "2026-11-21T04:10:47.000Z",
-   "impressions": 195,
+   "impressions": 212,
    "reposts": 1,
    "quotes": 0,
    "likes": 4,
@@ -29,7 +41,7 @@
   {
    "id": "2123599398122983865",
    "created_at": "2026-11-20T02:08:45.000Z",
-   "impressions": 99,
+   "impressions": 107,
    "reposts": 0,
    "quotes": 0,
    "likes": 3,
@@ -41,7 +53,7 @@
   {
    "id": "2123225047339012587",
    "created_at": "2026-11-19T01:21:13.000Z",
-   "impressions": 194,
+   "impressions": 208,
    "reposts": 1,
    "quotes": 0,
    "likes": 4,
@@ -53,7 +65,7 @@
   {
    "id": "2122852912678457476",
    "created_at": "2026-11-18T00:42:29.000Z",
-   "impressions": 163,
+   "impressions": 171,
    "reposts": 0,
    "quotes": 0,
    "likes": 3,
@@ -65,7 +77,7 @@
   {
    "id": "2122181927612694916",
    "created_at": "2026-11-16T04:16:14.000Z",
-   "impressions": 275,
+   "impressions": 282,
    "reposts": 2,
    "quotes": 0,
    "likes": 5,
@@ -73,41 +85,29 @@
    "bookmarks": 0,
    "images": 1,
    "text": "ベリーの甘さのあとに、メンソールがすっと抜けていく。 ✔︎MARBO BAR 9K ブルーアイス味は、Marboで冷たい系を選ぶなら最初に試してほしい一本です。 冷え込んできた夜でも甘さがぼやけず、冷たさもちゃんと残る。 定番と呼ばれる理由はそこだと思っています。 今なら在庫も十分あります。 https://t.co/BtTKy9lNbM"
-  },
-  {
-   "id": "2121894022642086377",
-   "created_at": "2026-11-15T09:12:12.000Z",
-   "impressions": 182,
-   "reposts": 1,
-   "quotes": 0,
-   "likes": 0,
-   "replies": 0,
-   "bookmarks": 0,
-   "images": 1,
-   "text": "Marbo bar 10k 人気なのには理由があります。 ✔︎3段階のモード切り替え ✔︎スタイリッシュなデザイン ✔︎Type-C充電 ✔︎圧倒的な吸い心地 是非お試しあれ https://t.co/mw1RS72lwQ"
   }
  ],
  "rivals_new": [
   {
    "account": "Cross_Vape",
-   "id": "2124441515414212799",
-   "created_at": "2026-11-22T09:55:02.000Z",
-   "impressions": 451,
-   "reposts": 3,
+   "id": "2124803903678251069",
+   "created_at": "2026-11-23T09:55:02.000Z",
+   "impressions": 282,
+   "reposts": 2,
    "quotes": 0,
-   "likes": 13,
+   "likes": 10,
    "replies": 0,
    "images": 0,
    "is_quote": 0,
-   "text": "週末のおでかけ、充電のことを考えずに出かけたい日もありますよね。 ニコチン0mgの Fizzy Twins は使い捨てタイプ。吸い口のスライドで2つの味を切りかえます。いまセールで3,500円（通常3,980円）です。 ※このアカウントは20歳以上の方に向けたものです。 #ニコチンフリー"
+   "text": "今日は勤労感謝の日。みなさん、おつかれさまです。 連休でお出かけの方も多いと思います。人の多い場所では、まわりの人に気をくばって、お店や施設ではそこのルールに合わせて使いたいですね。 ※このアカウントは20歳以上の方に向けたものです。 #VAPE"
   }
  ],
- "rivals_total": 354,
+ "rivals_total": 355,
  "rivals_median": {
-  "vapepenzonejp": 790,
-  "nicopuff_pr": 818,
-  "Cross_Vape": 320,
   "mymoods_vape": 342,
-  "nicohub_japan": 1586
+  "nicohub_japan": 1586,
+  "Cross_Vape": 317,
+  "nicopuff_pr": 818,
+  "vapepenzonejp": 790
  }
 }
