@@ -1,11 +1,23 @@
 {
- "fetched_at": "2026-11-24T19:29:04+09:00",
+ "fetched_at": "2026-11-25T18:16:04+09:00",
  "followers": 540,
  "posts": [
   {
+   "id": "2125227933610782858",
+   "created_at": "2026-11-24T13:59:58.000Z",
+   "impressions": 73,
+   "reposts": 0,
+   "quotes": 0,
+   "likes": 1,
+   "replies": 0,
+   "bookmarks": 0,
+   "images": 1,
+   "text": "𝗟𝗔𝗡𝗔 𝗣𝗘𝗡 𝗣𝗟𝗨𝗦 𝟵𝗞 ― 𝗙𝗥𝗢𝗭𝗘𝗡 𝗚𝗥𝗔𝗣𝗘 ― フローズングレープ味🍇 濃厚なぶどうの甘さと、すっきりとした冷涼感が特徴のフレーバーです。 ※20歳以上の方向けの商品です。 #LANAPENPLUS #ラナペン #フローズングレープ #BANDVAPE https://t.co/PPaUsaiGdS"
+  },
+  {
    "id": "2124843421198319756",
    "created_at": "2026-11-23T12:32:03.000Z",
-   "impressions": 294,
+   "impressions": 336,
    "reposts": 1,
    "quotes": 0,
    "likes": 9,
@@ -17,7 +29,7 @@
   {
    "id": "2124344807359439246",
    "created_at": "2026-11-22T03:30:45.000Z",
-   "impressions": 141,
+   "impressions": 148,
    "reposts": 1,
    "quotes": 0,
    "likes": 1,
@@ -29,7 +41,7 @@
   {
    "id": "2123992497210941600",
    "created_at": "2026-11-21T04:10:47.000Z",
-   "impressions": 212,
+   "impressions": 222,
    "reposts": 1,
    "quotes": 0,
    "likes": 4,
@@ -41,7 +53,7 @@
   {
    "id": "2123599398122983865",
    "created_at": "2026-11-20T02:08:45.000Z",
-   "impressions": 107,
+   "impressions": 117,
    "reposts": 0,
    "quotes": 0,
    "likes": 3,
@@ -53,7 +65,7 @@
   {
    "id": "2123225047339012587",
    "created_at": "2026-11-19T01:21:13.000Z",
-   "impressions": 208,
+   "impressions": 220,
    "reposts": 1,
    "quotes": 0,
    "likes": 4,
@@ -65,7 +77,7 @@
   {
    "id": "2122852912678457476",
    "created_at": "2026-11-18T00:42:29.000Z",
-   "impressions": 171,
+   "impressions": 180,
    "reposts": 0,
    "quotes": 0,
    "likes": 3,
@@ -73,41 +85,15 @@
    "bookmarks": 0,
    "images": 1,
    "text": "お菓子の抹茶味ではなく、点てた抹茶にミルクを足したような味。 𝐌𝐀𝐑𝐁𝐎 𝐁𝐀𝐑 𝟏𝟎𝐊 🍵抹茶ラテ味は、茶葉の渋みとミルクの甘さがほぼ半々です。 出力は3段階。 弱めだと渋みが、強めにするとミルクのまろやかさが前に出ます。 https://t.co/C3Yaxd3LIo"
-  },
-  {
-   "id": "2122181927612694916",
-   "created_at": "2026-11-16T04:16:14.000Z",
-   "impressions": 282,
-   "reposts": 2,
-   "quotes": 0,
-   "likes": 5,
-   "replies": 0,
-   "bookmarks": 0,
-   "images": 1,
-   "text": "ベリーの甘さのあとに、メンソールがすっと抜けていく。 ✔︎MARBO BAR 9K ブルーアイス味は、Marboで冷たい系を選ぶなら最初に試してほしい一本です。 冷え込んできた夜でも甘さがぼやけず、冷たさもちゃんと残る。 定番と呼ばれる理由はそこだと思っています。 今なら在庫も十分あります。 https://t.co/BtTKy9lNbM"
   }
  ],
- "rivals_new": [
-  {
-   "account": "Cross_Vape",
-   "id": "2124803903678251069",
-   "created_at": "2026-11-23T09:55:02.000Z",
-   "impressions": 282,
-   "reposts": 2,
-   "quotes": 0,
-   "likes": 10,
-   "replies": 0,
-   "images": 0,
-   "is_quote": 0,
-   "text": "今日は勤労感謝の日。みなさん、おつかれさまです。 連休でお出かけの方も多いと思います。人の多い場所では、まわりの人に気をくばって、お店や施設ではそこのルールに合わせて使いたいですね。 ※このアカウントは20歳以上の方に向けたものです。 #VAPE"
-  }
- ],
+ "rivals_new": [],
  "rivals_total": 355,
  "rivals_median": {
-  "mymoods_vape": 342,
-  "nicohub_japan": 1586,
-  "Cross_Vape": 317,
   "nicopuff_pr": 818,
-  "vapepenzonejp": 790
+  "mymoods_vape": 342,
+  "vapepenzonejp": 790,
+  "nicohub_japan": 1586,
+  "Cross_Vape": 317
  }
 }
