@@ -1,11 +1,23 @@
 {
- "fetched_at": "2026-11-25T18:16:04+09:00",
- "followers": 540,
+ "fetched_at": "2026-11-26T17:56:49+09:00",
+ "followers": 538,
  "posts": [
+  {
+   "id": "2125549833356562612",
+   "created_at": "2026-11-25T11:19:05.000Z",
+   "impressions": 86,
+   "reposts": 0,
+   "quotes": 0,
+   "likes": 3,
+   "replies": 0,
+   "bookmarks": 0,
+   "images": 1,
+   "text": "夜に合うスイカ。 MARBO BAR 9K スイカ味は、甘さよりもみずみずしさが先にくるタイプ。 冬でも重たく感じないので、部屋で静かに過ごす時間に合わせやすいです。 季節外れの味ですが、最近また手に取る人が増えてきました。 ⚠️20歳以上の方へ。 #BANDVAPE #MARBOBAR #スイカ味 #使い捨てVAPE https://t.co/D9eodpeSv3"
+  },
   {
    "id": "2125227933610782858",
    "created_at": "2026-11-24T13:59:58.000Z",
-   "impressions": 73,
+   "impressions": 90,
    "reposts": 0,
    "quotes": 0,
    "likes": 1,
@@ -17,7 +29,7 @@
   {
    "id": "2124843421198319756",
    "created_at": "2026-11-23T12:32:03.000Z",
-   "impressions": 336,
+   "impressions": 364,
    "reposts": 1,
    "quotes": 0,
    "likes": 9,
@@ -29,7 +41,7 @@
   {
    "id": "2124344807359439246",
    "created_at": "2026-11-22T03:30:45.000Z",
-   "impressions": 148,
+   "impressions": 154,
    "reposts": 1,
    "quotes": 0,
    "likes": 1,
@@ -41,7 +53,7 @@
   {
    "id": "2123992497210941600",
    "created_at": "2026-11-21T04:10:47.000Z",
-   "impressions": 222,
+   "impressions": 232,
    "reposts": 1,
    "quotes": 0,
    "likes": 4,
@@ -53,7 +65,7 @@
   {
    "id": "2123599398122983865",
    "created_at": "2026-11-20T02:08:45.000Z",
-   "impressions": 117,
+   "impressions": 123,
    "reposts": 0,
    "quotes": 0,
    "likes": 3,
@@ -65,7 +77,7 @@
   {
    "id": "2123225047339012587",
    "created_at": "2026-11-19T01:21:13.000Z",
-   "impressions": 220,
+   "impressions": 232,
    "reposts": 1,
    "quotes": 0,
    "likes": 4,
@@ -73,27 +85,42 @@
    "bookmarks": 0,
    "images": 1,
    "text": "＼いちごミルク、そのままの味です。／ 𝐋𝐀𝐍𝐀 𝐏𝐄𝐍 𝐏𝐋𝐔𝐒 𝟗𝐊 ストロベリーミルク味は、 練乳の甘さといちごの酸味が同じくらいの割合で出ます🍓🐄 冷たさがしっかりあるので、甘いのに後味は重くなりません。 細身のペン型で、ポーチやポケットにも収まりやすいサイズ。👜 https://t.co/rmAGwdI4mS"
-  },
-  {
-   "id": "2122852912678457476",
-   "created_at": "2026-11-18T00:42:29.000Z",
-   "impressions": 180,
-   "reposts": 0,
-   "quotes": 0,
-   "likes": 3,
-   "replies": 0,
-   "bookmarks": 0,
-   "images": 1,
-   "text": "お菓子の抹茶味ではなく、点てた抹茶にミルクを足したような味。 𝐌𝐀𝐑𝐁𝐎 𝐁𝐀𝐑 𝟏𝟎𝐊 🍵抹茶ラテ味は、茶葉の渋みとミルクの甘さがほぼ半々です。 出力は3段階。 弱めだと渋みが、強めにするとミルクのまろやかさが前に出ます。 https://t.co/C3Yaxd3LIo"
   }
  ],
- "rivals_new": [],
- "rivals_total": 355,
+ "rivals_new": [
+  {
+   "account": "Cross_Vape",
+   "id": "2125821904049299937",
+   "created_at": "2026-11-26T05:20:12.000Z",
+   "impressions": 167,
+   "reposts": 1,
+   "quotes": 1,
+   "likes": 1,
+   "replies": 0,
+   "images": 0,
+   "is_quote": 0,
+   "text": "沢山の参加ありがとうございます😊 当選者の方はDMにて 郵便番号、住所、名前 お願いします！ おめでとうございます‼️ @A_sora____love @tanaka242400 @aaa_s9k25 次回の企画もお楽しみに♡"
+  },
+  {
+   "account": "Cross_Vape",
+   "id": "2125528683289149765",
+   "created_at": "2026-11-25T09:55:03.000Z",
+   "impressions": 488,
+   "reposts": 3,
+   "quotes": 0,
+   "likes": 10,
+   "replies": 0,
+   "images": 0,
+   "is_quote": 0,
+   "text": "ニコチンが入っているかどうか、どこで見ていますか？ うちでは、箱や商品ページの表示を1つずつ確かめてから紹介しています。いまセール中の Fizzy Twins は3,500円、FIZZY SMART は4,000円（通常3,980円・4,980円）。 ※このアカウントは20歳以上の方に向けたものです。 #ニコチンフリー"
+  }
+ ],
+ "rivals_total": 357,
  "rivals_median": {
-  "nicopuff_pr": 818,
-  "mymoods_vape": 342,
-  "vapepenzonejp": 790,
+  "Cross_Vape": 317,
   "nicohub_japan": 1586,
-  "Cross_Vape": 317
+  "vapepenzonejp": 790,
+  "mymoods_vape": 342,
+  "nicopuff_pr": 818
  }
 }
